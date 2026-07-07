@@ -5,8 +5,27 @@ import MovementList from './MovementList'
 function WorkCard({ work }) {
   const [expanded, setExpanded] = useState(false)
 
+  const hasMovements = work.movements && work.movements.length > 0
+
+  const handleToggle = () => {
+    if (hasMovements) {
+      setExpanded(!expanded)
+    }
+  }
+
   return (
-    <Card sx={{ mb: 2 }}>
+      <Card 
+        sx={{ 
+          mb: 2, 
+          userSelect: 'text',
+          cursor: hasMovements ? 'pointer' : 'default',
+          transition: 'box-shadow 0.2s ease',
+          '&:hover': hasMovements ? {
+            boxShadow: 3
+          } : {}
+        }}
+        onClick={handleToggle}
+      >
       <CardContent>
         <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <Box sx={{ flex: 1 }}>
@@ -23,10 +42,10 @@ function WorkCard({ work }) {
               {work.period && <Chip label={work.period} size="small" variant="outlined" />}
             </Box>
           </Box>
-          {work.movements && work.movements.length > 0 && (
+          {hasMovements && (
             <IconButton 
               size="small"
-              onClick={() => setExpanded(!expanded)}
+              onClick={(e) => { e.stopPropagation(); setExpanded(!expanded) }}
               sx={{ flexShrink: 0, ml: 1 }}
             >
               <Box 

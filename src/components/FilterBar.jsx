@@ -66,45 +66,28 @@ function FilterBar({
         }}
       >
         <Box component="span" sx={{ display: { xs: 'none', sm: 'inline' } }}>
-          Filters
+          Filter
           {hasFilters && (
             <Box
               component="span"
               sx={{
                 ml: 1,
-                px: 1,
-                minWidth: 20,
-                textAlign: 'center',
+                display: 'inline-flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                width: 20,
+                height: 20,
                 bgcolor: (t) => t.palette.primary.contrastText,
                 color: 'primary.main',
-                borderRadius: 9999,
+                borderRadius: '50%',
                 fontSize: 11,
-                lineHeight: 1.6,
+                lineHeight: 1,
               }}
             >
               {activeFilterCount}
             </Box>
           )}
         </Box>
-        {hasFilters && (
-          <Box
-            component="span"
-            sx={{
-              display: { xs: 'inline-flex', sm: 'none' },
-              ml: 0.5,
-              px: 0.8,
-              minWidth: 18,
-              textAlign: 'center',
-              bgcolor: (t) => t.palette.primary.contrastText,
-              color: 'primary.main',
-              borderRadius: 9999,
-              fontSize: 10,
-              lineHeight: 1.6,
-            }}
-          >
-            {activeFilterCount}
-          </Box>
-        )}
       </Button>
 
       <Button
@@ -189,9 +172,10 @@ function FilterBar({
             <Divider sx={{ my: 0.5 }} />
             <MenuItem
               onClick={clearFilters}
-              sx={{ justifyContent: 'center', color: 'primary.main' }}
+              sx={{ justifyContent: 'center', color: 'primary.main', gap: 1 }}
             >
-              Clear filters
+              <span className="mdi mdi-restore" style={{ fontSize: '1.1rem' }} />
+              Reset filter
             </MenuItem>
           </>
         )}

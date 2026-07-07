@@ -194,7 +194,7 @@ function Layout({ children, searchTerm, onSearchChange }) {
         {children}
         <Box component="footer" sx={{ mt: 4, py: 3, textAlign: 'center', borderTop: 1, borderColor: 'divider' }}>
           <Typography variant="body2" color="text.secondary">
-            © 2026 BUG STUDIO · For reference only
+            © 2026 BUG STUDIO
           </Typography>
         </Box>
       </Container>
