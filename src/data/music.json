@@ -1,145 +1,349 @@
 [
   {
-    "composer": "Johann Sebastian Bach",
-    "title": "Sonata No. 1 in G minor",
-    "op": "BWV 1001",
-    "genre": "Chamber Music",
-    "period": "Baroque",
+    "composer": "Gustav Mahler",
+    "title": "Symphony No. 1 in D Major, 'Titan'",
+    "op": "GMW 11",
+    "genre": "Symphony",
+    "period": "Romantic",
     "movements": [
-      "Adagio",
-      "Fuga",
-      "Siciliana",
-      "Presto"
+      "I. Langsam. Schleppend",
+      "II. Kräftig bewegt",
+      "III. Feierlich und gemessen, ohne zu schleppen",
+      "IV. Stürmisch bewegt"
     ]
   },
   {
-    "composer": "Johann Sebastian Bach",
-    "title": "Partita No. 1 in B-flat major",
-    "op": "BWV 825",
-    "genre": "Keyboard",
-    "period": "Baroque",
+    "composer": "Gustav Mahler",
+    "title": "Symphony No. 2 in C Minor, 'Resurrection'",
+    "op": "GMW 30",
+    "genre": "Symphony",
+    "period": "Romantic",
     "movements": [
-      "Praeludium",
-      "Allemande",
-      "Courante",
-      "Sarabande",
-      "Menuet I",
-      "Menuet II",
-      "Gigue"
+      "I. Allegro maestoso. Mit durchaus ernstem und feierlichem Ausdruck",
+      "II. Andante moderato. Sehr gemächlich",
+      "III. Scherzo. In ruhig fliessender Bewegung",
+      "IV. 'Urlicht'. Sehr feierlich, aber schlicht",
+      "V. Im Tempo des Scherzo. Langsam misterioso"
     ]
   },
   {
-    "composer": "Ludwig van Beethoven",
-    "title": "Piano Sonata No. 14 in C-sharp minor",
-    "op": "Op. 27 No. 2",
-    "genre": "Piano Sonata",
-    "period": "Classical",
+    "composer": "Gustav Mahler",
+    "title": "Symphony No. 3 in D Minor",
+    "op": "GMW 31",
+    "genre": "Symphony",
+    "period": "Romantic",
     "movements": [
-      "Adagio sostenuto",
-      "Allegretto",
-      "Presto agitato"
+      "I. Kräftig. Entschieden",
+      "II. Tempo di Menuetto. Sehr mäßig",
+      "III. Comodo. Scherzando. Ohne Hast",
+      "IV. Sehr langsam. Misterioso. Durchaus ppp",
+      "V. Lustig im Tempo und keck im Ausdruck",
+      "VI. Langsam. Ruhevoll. Empfunden"
     ]
   },
   {
-    "composer": "Ludwig van Beethoven",
-    "title": "Symphony No. 5 in C minor",
-    "op": "Op. 67",
+    "composer": "Gustav Mahler",
+    "title": "Symphony No. 4 in G Major",
+    "op": "GMW 37",
+    "genre": "Symphony",
+    "period": "Romantic",
+    "movements": [
+      "I. Heiter, bedächtig. Nicht eilen",
+      "II. In gemächlicher Bewegung, ohne Hast",
+      "III. Ruhevoll",
+      "IV. Sehr behaglich"
+    ]
+  },
+  {
+    "composer": "Gustav Mahler",
+    "title": "Symphony No. 5 in C-Sharp Minor",
+    "op": "GMW 44",
+    "genre": "Symphony",
+    "period": "Romantic",
+    "movements": [
+      "I. Trauermarsch. In gemessenem Schritt. Streng. Wie ein Kondukt",
+      "II. Stürmisch bewegt. Mit grösster Vehemenz",
+      "III. Scherzo. Kräftig, nicht zu schnell",
+      "IV. Adagietto. Sehr langsam",
+      "V. Rondo-Finale. Allegro - Allegro giocoso. Frisch"
+    ]
+  },
+  {
+    "composer": "Gustav Mahler",
+    "title": "Symphony No. 6 in A Minor, 'Tragic'",
+    "op": "GMW 46",
+    "genre": "Symphony",
+    "period": "Romantic",
+    "movements": [
+      "I. Allegro energico, ma non troppo",
+      "II. Scherzo. Wuchtig",
+      "III. Andante moderato",
+      "IV. Finale. Sostenuto - Allegro moderato - Allegro energico"
+    ]
+  },
+  {
+    "composer": "Gustav Mahler",
+    "title": "Symphony No. 7 in E Minor, 'Song of the Night'",
+    "op": "GMW 47",
+    "genre": "Symphony",
+    "period": "Romantic",
+    "movements": [
+      "I. Adagio - Allegro risoluto, ma non troppo",
+      "II. Nachtmusik I. Allegro moderato",
+      "III. Scherzo. Schattenhaft - Trio",
+      "IV. Nachtmusik II. Andante amoroso",
+      "V. Rondo-Finale. Allegro ordinario - Allegro moderato ma energico"
+    ]
+  },
+  {
+    "composer": "Gustav Mahler",
+    "title": "Symphony No. 8 in E-Flat Major, 'Symphony of a Thousand'",
+    "op": "GMW 48",
+    "genre": "Symphony",
+    "period": "Romantic",
+    "movements": [
+      "Pt. I. 'Hymnus' - I. Veni, Creator Spiritus",
+      "Pt. I. 'Hymnus' - II. Imple superna gratia",
+      "Pt. I. 'Hymnus' - III. Infirma nostri corporis",
+      "Pt. I. 'Hymnus' - IV. Accende lumen sensibus",
+      "Pt. I. 'Hymnus' - V. Veni, Creator Spiritus",
+      "Pt. I. 'Hymnus' - VI. Gloria sit Patri Domino",
+      "Pt. II. 'Final Scene from Faust' - I. Poco adagio - Waldung, sie schwankt heran",
+      "Pt. II. 'Final Scene from Faust' - II. Ewiger Wonnebrand",
+      "Pt. II. 'Final Scene from Faust' - III. Wie Felsenabgrund mir zu Füssen",
+      "Pt. II. 'Final Scene from Faust' - IV. Gerettet ist das edle Glied",
+      "Pt. II. 'Final Scene from Faust' - V. Uns bleibt ein Erdenrest",
+      "Pt. II. 'Final Scene from Faust' - VI. Hier ist die Aussicht frei",
+      "Pt. II. 'Final Scene from Faust' - VII. Höchste Herrscherin der Welt!",
+      "Pt. II. 'Final Scene from Faust' - VIII. Dir, der Unberührbaren",
+      "Pt. II. 'Final Scene from Faust' - IX. Bei der Liebe, die den Füssen",
+      "Pt. II. 'Final Scene from Faust' - X. Neige, neige, du Ohnegleiche",
+      "Pt. II. 'Final Scene from Faust' - XI. Blicket auf zum Retterblick",
+      "Pt. II. 'Final Scene from Faust' - XII. Alles Vergängliche"
+    ]
+  },
+  {
+    "composer": "Gustav Mahler",
+    "title": "Symphony No. 9 in D Major",
+    "op": "GMW 50",
+    "genre": "Symphony",
+    "period": "Romantic",
+    "movements": [
+      "I. Andante comodo",
+      "II. Im Tempo eines gemächlichen Ländlers",
+      "III. Rondo-Burleske. Allegro assai. Sehr trotzig",
+      "IV. Adagio. Sehr langsam und noch zurückhaltend"
+    ]
+  },
+  {
+    "composer": "Gustav Mahler",
+    "title": "Symphony No. 10 in F-Sharp Minor",
+    "op": "GMW F58",
+    "genre": "Symphony",
+    "period": "Romantic",
+    "movements": [
+      "I. Adagio"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 1 in D Major, Hob. I:1",
+    "op": "Hob. I:1",
     "genre": "Symphony",
     "period": "Classical",
     "movements": [
-      "Allegro con brio",
-      "Andante con moto",
-      "Scherzo: Allegro",
-      "Allegro"
+      "I. Presto",
+      "II. Andante",
+      "III. Finale. Presto"
     ]
   },
   {
-    "composer": "Antonio Vivaldi",
-    "title": "The Four Seasons - Spring",
-    "op": "Op. 8 No. 1",
-    "genre": "Concerto",
-    "period": "Baroque",
-    "movements": [
-      "Allegro",
-      "Largo e pianissimo sempre",
-      "Allegro (Danza pastorale)"
-    ]
-  },
-  {
-    "composer": "Antonio Vivaldi",
-    "title": "The Four Seasons - Summer",
-    "op": "Op. 8 No. 2",
-    "genre": "Concerto",
-    "period": "Baroque",
-    "movements": [
-      "Allegro non molto",
-      "Adagio e piano - Presto e forte",
-      "Presto"
-    ]
-  },
-  {
-    "composer": "Antonio Vivaldi",
-    "title": "The Four Seasons - Autumn",
-    "op": "Op. 8 No. 3",
-    "genre": "Concerto",
-    "period": "Baroque",
-    "movements": [
-      "Allegro",
-      "Adagio molto",
-      "Allegro"
-    ]
-  },
-  {
-    "composer": "Antonio Vivaldi",
-    "title": "The Four Seasons - Winter",
-    "op": "Op. 8 No. 4",
-    "genre": "Concerto",
-    "period": "Baroque",
-    "movements": [
-      "Allegro non molto",
-      "Largo",
-      "Allegro"
-    ]
-  },
-  {
-    "composer": "Frédéric Chopin",
-    "title": "Nocturne in E-flat major",
-    "genre": "Nocturne",
-    "period": "Romantic",
-    "movements": []
-  },
-  {
-    "composer": "Frédéric Chopin",
-    "title": "Ballade No. 1 in G minor",
-    "op": "Op. 23",
-    "genre": "Ballade",
-    "period": "Romantic",
-    "movements": []
-  },
-  {
-    "composer": "Claude Debussy",
-    "title": "Suite bergamasque",
-    "op": "L. 75",
-    "genre": "Suite",
-    "period": "Impressionist",
-    "movements": [
-      "Prélude",
-      "Menuet",
-      "Clair de lune",
-      "Passepied"
-    ]
-  },
-  {
-    "composer": "Wolfgang Amadeus Mozart",
-    "title": "Symphony No. 40 in G minor",
-    "op": "K. 550",
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 2 in C Major, Hob. I:2",
+    "op": "Hob. I:2",
     "genre": "Symphony",
     "period": "Classical",
     "movements": [
-      "Molto allegro",
-      "Andante",
-      "Menuetto: Allegretto",
-      "Allegro assai"
+      "I. Allegro",
+      "II. Andante",
+      "III. Finale. Presto"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 3 in G Major, Hob. I:3",
+    "op": "Hob. I:3",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Allegro",
+      "II. Andante moderato",
+      "III. Menuetto - Trio",
+      "IV. Finale. Alla breve"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 4 in D Major, Hob. I:4",
+    "op": "Hob. I:4",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Presto",
+      "II. Andante",
+      "III. Finale. Tempo di menuetto"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 5 in A Major, Hob. I:5",
+    "op": "Hob. I:5",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Adagio, ma non troppo",
+      "II. Allegro",
+      "III. Menuetto - Trio",
+      "IV. Finale. Presto"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 6 in D Major, Hob. I:6 'Le Matin'",
+    "op": "Hob. I:6",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Adagio - Allegro",
+      "II. Adagio",
+      "III. Menuetto - Trio",
+      "IV. Finale. Allegro"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 7 in C Major, Hob. I:7 'Le midi'",
+    "op": "Hob. I:7",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Adagio - Allegro",
+      "II. Recitativo. Adagio",
+      "III. Menuetto - Trio",
+      "IV. Finale. Allegro"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 8 in D Major, Hob. I:8 'Le soir'",
+    "op": "Hob. I:8",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Allegro molto",
+      "II. Andante",
+      "III. Menuetto",
+      "IV. Finale. Presto"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 9 in C Major, Hob. I:9",
+    "op": "Hob. I:9",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Allegro molto",
+      "II. Andante",
+      "III. Finale. Menuetto"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 10 in D Major, Hob. I:10",
+    "op": "Hob. I:10",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Allegro",
+      "II. Andante",
+      "III. Finale. Presto"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 11 in E-Flat Major, Hob. I:11",
+    "op": "Hob. I:11",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Adagio cantabile",
+      "II. Allegro",
+      "III. Menuetto - Trio",
+      "IV. Finale. Presto"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 12 in E Major, Hob. I:12",
+    "op": "Hob. I:12",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Allegro",
+      "II. Adagio",
+      "III. Finale. Presto"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 13 in D Major, Hob. I:13",
+    "op": "Hob. I:13",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Allegro molto",
+      "II. Adagio cantabile",
+      "III. Menuetto - Trio",
+      "IV. Finale. Allegro molto"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 14 in A Major, Hob. I:14",
+    "op": "Hob. I:14",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Allegro molto",
+      "II. Andante",
+      "III. Menuetto. Allegretto",
+      "IV. Finale. Allegro"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 15 in D Major, Hob. I:15",
+    "op": "Hob. I:15",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Adagio - Presto - Adagio",
+      "II. Menuetto - Trio",
+      "III. Andante",
+      "IV. Finale. Presto"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 16 in B-Flat Major, Hob. I:16",
+    "op": "Hob. I:16",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Allegro",
+      "II. Andante",
+      "III. Finale. Presto"
     ]
   }
 ]
