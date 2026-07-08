@@ -3,8 +3,12 @@ import { Box, CircularProgress, Alert, Paper, Snackbar, Typography } from '@mui/
 import Layout from './components/Layout'
 import FilterBar from './components/FilterBar'
 import WorkList from './components/WorkList'
-import useMusicData from './hooks/useMusicData'
+import useMusicData, { composerMap } from './hooks/useMusicData'
 import { filterWorks } from './utils/search'
+
+function getComposerShort(composer) {
+  return composerMap[composer] || composer
+}
 
 const ITEMS_PER_PAGE = 20
 
@@ -56,7 +60,7 @@ function App({ onToggleTheme, themeMode }) {
     setSnackbarOpen(false)
   }
 
-  const allComposers = [...new Set(data.map(w => w.composerShort))].sort()
+  const allComposers = [...new Set(data.map(w => getComposerShort(w.composer)))].sort()
   const allGenres = [...new Set(data.filter(w => w.genre).map(w => w.genre))].sort()
   const allPeriods = [...new Set(data.filter(w => w.period).map(w => w.period))].sort()
 

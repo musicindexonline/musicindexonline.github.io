@@ -1,7 +1,6 @@
 [
   {
     "composer": "Johann Sebastian Bach",
-    "composerShort": "J.S. Bach",
     "title": "Sonata No. 1 in G minor",
     "op": "BWV 1001",
     "genre": "Chamber Music",
@@ -15,7 +14,6 @@
   },
   {
     "composer": "Johann Sebastian Bach",
-    "composerShort": "J.S. Bach",
     "title": "Partita No. 1 in B-flat major",
     "op": "BWV 825",
     "genre": "Keyboard",
@@ -32,7 +30,6 @@
   },
   {
     "composer": "Ludwig van Beethoven",
-    "composerShort": "L. van Beethoven",
     "title": "Piano Sonata No. 14 in C-sharp minor",
     "op": "Op. 27 No. 2",
     "genre": "Piano Sonata",
@@ -45,7 +42,6 @@
   },
   {
     "composer": "Ludwig van Beethoven",
-    "composerShort": "L. van Beethoven",
     "title": "Symphony No. 5 in C minor",
     "op": "Op. 67",
     "genre": "Symphony",
@@ -59,7 +55,6 @@
   },
   {
     "composer": "Antonio Vivaldi",
-    "composerShort": "A. Vivaldi",
     "title": "The Four Seasons - Spring",
     "op": "Op. 8 No. 1",
     "genre": "Concerto",
@@ -72,7 +67,6 @@
   },
   {
     "composer": "Antonio Vivaldi",
-    "composerShort": "A. Vivaldi",
     "title": "The Four Seasons - Summer",
     "op": "Op. 8 No. 2",
     "genre": "Concerto",
@@ -85,7 +79,6 @@
   },
   {
     "composer": "Antonio Vivaldi",
-    "composerShort": "A. Vivaldi",
     "title": "The Four Seasons - Autumn",
     "op": "Op. 8 No. 3",
     "genre": "Concerto",
@@ -98,7 +91,6 @@
   },
   {
     "composer": "Antonio Vivaldi",
-    "composerShort": "A. Vivaldi",
     "title": "The Four Seasons - Winter",
     "op": "Op. 8 No. 4",
     "genre": "Concerto",
@@ -111,7 +103,6 @@
   },
   {
     "composer": "Frédéric Chopin",
-    "composerShort": "F. Chopin",
     "title": "Nocturne in E-flat major",
     "genre": "Nocturne",
     "period": "Romantic",
@@ -119,7 +110,6 @@
   },
   {
     "composer": "Frédéric Chopin",
-    "composerShort": "F. Chopin",
     "title": "Ballade No. 1 in G minor",
     "op": "Op. 23",
     "genre": "Ballade",
@@ -128,7 +118,6 @@
   },
   {
     "composer": "Claude Debussy",
-    "composerShort": "C. Debussy",
     "title": "Suite bergamasque",
     "op": "L. 75",
     "genre": "Suite",
@@ -142,7 +131,6 @@
   },
   {
     "composer": "Wolfgang Amadeus Mozart",
-    "composerShort": "W.A. Mozart",
     "title": "Symphony No. 40 in G minor",
     "op": "K. 550",
     "genre": "Symphony",

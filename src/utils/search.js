@@ -1,3 +1,9 @@
+import composerMap from '../data/composerMap.json'
+
+function getComposerShort(composer) {
+  return composerMap[composer] || composer
+}
+
 function cleanSearchText(text) {
   return text.replace(/[^\w\s]/g, ' ').replace(/\s+/g, ' ').trim()
 }
@@ -5,7 +11,7 @@ function cleanSearchText(text) {
 function getMatchScore(work, keywords) {
   const searchableFields = [
     work.composer,
-    work.composerShort,
+    getComposerShort(work.composer),
     work.title,
     work.op,
     work.period,
@@ -40,7 +46,7 @@ export function filterWorks(data, searchTerm, filters) {
   }
 
   if (filters.composer) {
-    result = result.filter(work => work.composerShort === filters.composer)
+    result = result.filter(work => getComposerShort(work.composer) === filters.composer)
   }
 
   if (filters.genre) {
@@ -55,7 +61,7 @@ export function filterWorks(data, searchTerm, filters) {
 }
 
 export function getAllComposers(data) {
-  return [...new Set(data.map(w => w.composerShort))].sort()
+  return [...new Set(data.map(w => getComposerShort(w.composer)))].sort()
 }
 
 export function getAllGenres(data) {
