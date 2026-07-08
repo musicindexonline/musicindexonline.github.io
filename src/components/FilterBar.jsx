@@ -133,6 +133,10 @@ function FilterBar({
           sx: {
             minWidth: 340,
             maxWidth: '90vw',
+            minHeight: { xs: '90vh', sm: 'auto' },
+            maxHeight: '90vh',
+            display: 'flex',
+            flexDirection: 'column',
             borderRadius: 2,
           },
         }}
@@ -161,11 +165,11 @@ function FilterBar({
               py: 0.5,
             }}
           >
-            Reset filter
+            Reset
           </Button>
         </DialogTitle>
         <Divider />
-        <DialogContent sx={{ pt: 2 }}>
+        <DialogContent sx={{ pt: 2, flex: 1, overflowY: 'auto' }}>
           <Box sx={{ minWidth: 300 }}>
             <FormControl fullWidth size="small" sx={{ mb: 1.5 }}>
               <InputLabel id="composer-filter-label">Composer</InputLabel>
