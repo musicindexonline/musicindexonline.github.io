@@ -12,13 +12,34 @@ export default function useTheme() {
         return 'light'
     }
 
+    const getInitialFontSizeScale = () => {
+        try {
+            const saved = localStorage.getItem('siteFontSizeScale')
+            if (saved) {
+                const parsed = parseFloat(saved)
+                if (!isNaN(parsed) && parsed >= 0.5 && parsed <= 2.0) return parsed
+            }
+        } catch (e) {}
+        return 1.0
+    }
+
     const [mode, setMode] = useState(getInitialMode)
+    const [fontSizeScale, setFontSizeScale] = useState(getInitialFontSizeScale)
 
     useEffect(() => {
         if (typeof document !== 'undefined') {
             document.documentElement.setAttribute('data-theme', mode)
         }
     }, [mode])
+
+    useEffect(() => {
+        if (typeof document !== 'undefined') {
+            document.documentElement.style.fontSize = `${fontSizeScale * 100}%`
+        }
+        try {
+            localStorage.setItem('siteFontSizeScale', fontSizeScale)
+        } catch (e) {}
+    }, [fontSizeScale])
 
     useEffect(() => {
         if (typeof window === 'undefined' || !window.matchMedia) return
@@ -59,5 +80,10 @@ export default function useTheme() {
         })
     }, [])
 
-    return { mode, toggleMode, setMode: setThemeMode }
+    const setFontSize = useCallback((scale) => {
+        if (typeof scale !== 'number' || scale < 0.5 || scale > 2.0) return
+        setFontSizeScale(scale)
+    }, [])
+
+    return { mode, toggleMode, setMode: setThemeMode, fontSizeScale, setFontSizeScale: setFontSize }
 }

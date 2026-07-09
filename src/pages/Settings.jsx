@@ -8,13 +8,20 @@ import {
     Divider,
     ToggleButton,
     ToggleButtonGroup,
+    Slider,
 } from '@mui/material'
 import Layout from '../components/Layout'
 
-function Settings({ themeMode, onSetThemeMode }) {
+function Settings({ themeMode, onSetThemeMode, fontSizeScale, onSetFontSizeScale }) {
     const handleThemeChange = (event, next) => {
         if (next && onSetThemeMode) {
             onSetThemeMode(next)
+        }
+    }
+
+    const handleFontSizeChange = (event, newValue) => {
+        if (onSetFontSizeScale) {
+            onSetFontSizeScale(newValue)
         }
     }
 
@@ -120,6 +127,40 @@ function Settings({ themeMode, onSetThemeMode }) {
                                     </Box>
                                 </ToggleButton>
                             </ToggleButtonGroup>
+                        </Box>
+                        <Box sx={{ mt: 3 }}>
+                            <Box
+                                sx={{
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'space-between',
+                                    gap: 2,
+                                }}
+                            >
+                                <Typography
+                                    variant="subtitle1"
+                                    sx={{
+                                        fontFamily: '"EB Garamond", Georgia, serif',
+                                        fontWeight: 600,
+                                        fontSize: '1.15rem',
+                                        flexShrink: 0,
+                                    }}
+                                >
+                                    Text size
+                                </Typography>
+                                <Box sx={{ minWidth: 180 }}>
+                                    <Slider
+                                        value={fontSizeScale}
+                                        onChange={handleFontSizeChange}
+                                        min={0.5}
+                                        max={2.0}
+                                        step={0.05}
+                                        aria-label="text size"
+                                        valueLabelDisplay="auto"
+                                        valueLabelFormat={(value) => `${Math.round(value * 100)}%`}
+                                    />
+                                </Box>
+                            </Box>
                         </Box>
                     </CardContent>
                 </Card>

@@ -11,7 +11,7 @@ import '@mdi/font/css/materialdesignicons.min.css'
 import './App.css'
 
 function Root() {
-  const { mode, toggleMode, setMode } = useTheme()
+  const { mode, toggleMode, setMode, fontSizeScale, setFontSizeScale } = useTheme()
   const theme = mode === 'dark' ? darkTheme : lightTheme
   return (
     <ThemeProvider theme={theme}>
@@ -21,7 +21,7 @@ function Root() {
           <Route path="/" element={<App onToggleTheme={toggleMode} themeMode={mode} />} />
           <Route
             path="/settings"
-            element={<Settings themeMode={mode} onSetThemeMode={setMode} />}
+            element={<Settings themeMode={mode} onSetThemeMode={setMode} fontSizeScale={fontSizeScale} onSetFontSizeScale={setFontSizeScale} />}
           />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
