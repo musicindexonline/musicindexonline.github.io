@@ -15,7 +15,7 @@ const ITEMS_PER_PAGE = 20
 function App({ onToggleTheme, themeMode, clickCopyEnabled }) {
   const { data, loading, error } = useMusicData()
   const [searchTerm, setSearchTerm] = useState('')
-  const [filters, setFilters] = useState({ composer: '', genre: '', period: '' })
+  const [filters, setFilters] = useState({ composer: [], genre: [], period: [] })
   const [page, setPage] = useState(1)
 
   const filteredData = useMemo(() => filterWorks(data, searchTerm, filters), [data, searchTerm, filters])

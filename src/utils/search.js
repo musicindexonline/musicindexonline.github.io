@@ -45,16 +45,16 @@ export function filterWorks(data, searchTerm, filters) {
     }
   }
 
-  if (filters.composer) {
-    result = result.filter(work => getComposerShort(work.composer) === filters.composer)
+  if (filters.composer && filters.composer.length > 0) {
+    result = result.filter(work => filters.composer.includes(getComposerShort(work.composer)))
   }
 
-  if (filters.genre) {
-    result = result.filter(work => work.genre === filters.genre)
+  if (filters.genre && filters.genre.length > 0) {
+    result = result.filter(work => filters.genre.includes(work.genre))
   }
 
-  if (filters.period) {
-    result = result.filter(work => work.period === filters.period)
+  if (filters.period && filters.period.length > 0) {
+    result = result.filter(work => filters.period.includes(work.period))
   }
 
   return result

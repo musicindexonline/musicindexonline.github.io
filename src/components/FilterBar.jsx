@@ -12,7 +12,8 @@ import {
   FormControl,
   InputLabel,
   Select,
-  Divider
+  Divider,
+  Checkbox
 } from '@mui/material'
 
 function FilterBar({
@@ -27,15 +28,16 @@ function FilterBar({
   const [dialogOpen, setDialogOpen] = useState(false)
 
   const handleChange = (field) => (event) => {
-    onFilterChange({ ...filters, [field]: event.target.value })
+    const { value } = event.target
+    onFilterChange({ ...filters, [field]: typeof value === 'string' ? value.split(',') : value })
   }
 
   const clearFilters = () => {
-    onFilterChange({ composer: '', genre: '', period: '' })
+    onFilterChange({ composer: [], genre: [], period: [] })
   }
 
   const activeFilterCount =
-    (filters.composer ? 1 : 0) + (filters.genre ? 1 : 0) + (filters.period ? 1 : 0)
+    (filters.composer || []).length + (filters.genre || []).length + (filters.period || []).length
   const hasFilters = activeFilterCount > 0
 
   return (
@@ -136,9 +138,9 @@ function FilterBar({
         }}
         PaperProps={{
           sx: {
-            minWidth: 340,
-            maxWidth: '90vw',
-            maxHeight: '90vh',
+            width: 420,
+            maxWidth: '100vw',
+            maxHeight: '100vh',
             display: 'flex',
             flexDirection: 'column',
             borderRadius: 2,
@@ -180,13 +182,17 @@ function FilterBar({
               <InputLabel id="composer-filter-label">Composer</InputLabel>
               <Select
                 labelId="composer-filter-label"
-                value={filters.composer}
+                multiple
+                value={filters.composer || []}
                 label="Composer"
                 onChange={handleChange('composer')}
+                renderValue={(selected) => selected.join(', ')}
               >
-                <MenuItem value="">All composers</MenuItem>
                 {composers.map((c) => (
-                  <MenuItem key={c} value={c}>{c}</MenuItem>
+                  <MenuItem key={c} value={c}>
+                    <Checkbox checked={(filters.composer || []).includes(c)} />
+                    {c}
+                  </MenuItem>
                 ))}
               </Select>
             </FormControl>
@@ -194,13 +200,17 @@ function FilterBar({
               <InputLabel id="genre-filter-label">Genre</InputLabel>
               <Select
                 labelId="genre-filter-label"
-                value={filters.genre}
+                multiple
+                value={filters.genre || []}
                 label="Genre"
                 onChange={handleChange('genre')}
+                renderValue={(selected) => selected.join(', ')}
               >
-                <MenuItem value="">All genres</MenuItem>
                 {genres.map((g) => (
-                  <MenuItem key={g} value={g}>{g}</MenuItem>
+                  <MenuItem key={g} value={g}>
+                    <Checkbox checked={(filters.genre || []).includes(g)} />
+                    {g}
+                  </MenuItem>
                 ))}
               </Select>
             </FormControl>
@@ -208,13 +218,17 @@ function FilterBar({
               <InputLabel id="period-filter-label">Period</InputLabel>
               <Select
                 labelId="period-filter-label"
-                value={filters.period}
+                multiple
+                value={filters.period || []}
                 label="Period"
                 onChange={handleChange('period')}
+                renderValue={(selected) => selected.join(', ')}
               >
-                <MenuItem value="">All periods</MenuItem>
                 {periods.map((p) => (
-                  <MenuItem key={p} value={p}>{p}</MenuItem>
+                  <MenuItem key={p} value={p}>
+                    <Checkbox checked={(filters.period || []).includes(p)} />
+                    {p}
+                  </MenuItem>
                 ))}
               </Select>
             </FormControl>
