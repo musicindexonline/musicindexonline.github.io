@@ -1,5 +1,167 @@
 [
   {
+    "composer": "Johann Sebastian Bach",
+    "title": "Aria mit 30 Veränderungen, BWV 988 'Goldberg Variations'",
+    "op": "BWV 988",
+    "genre": "Keyboard",
+    "period": "Baroque",
+    "movements": [
+      "Aria",
+      "Var. 1 - a 1 Clav.",
+      "Var. 2 - a 1 Clav.",
+      "Var. 3 - a 1 Clav. Canone alla Unisuono",
+      "Var. 4 - a 1 Clav.",
+      "Var. 5 - a 1 ovvero 2 Clav.",
+      "Var. 6 - a 1 Clav. Canone alla Seconda",
+      "Var. 7 - a 1 ovvero 2 Clav.",
+      "Var. 8 - a 2 Clav.",
+      "Var. 9 - a 1 Clav. Canone alla Terza",
+      "Var. 10 - a 1 Clav. Fughetta",
+      "Var. 11 - a 2 Clav.",
+      "Var. 12 - a 1 Clav. Canone alla Quarta",
+      "Var. 13 - a 2 Clav.",
+      "Var. 14 - a 2 Clav.",
+      "Var. 15 - a 1 Clav. Canone alla Quinta. Andante",
+      "Var. 16 - Ouverture a 1 Clav.",
+      "Var. 17 - a 2 Clav.",
+      "Var. 18 - Canone alla Sesta a 1 Clav.",
+      "Var. 19 - a 1 Clav.",
+      "Var. 20 - a 2 Clav.",
+      "Var. 21 - Canone alla Settima",
+      "Var. 22 - Alla breve a 1 Clav.",
+      "Var. 23 - a 2 Clav.",
+      "Var. 24 - Canone alla Ottava a 1 Clav.",
+      "Var. 25 - a 2 Clav.",
+      "Var. 26 - a 2 Clav.",
+      "Var. 27 - Canone alla Nona",
+      "Var. 28 - a 2 Clav.",
+      "Var. 29 - a 1 ovvero 2 Clav.",
+      "Var. 30 - a 1 Clav. Quodlibet",
+      "Aria da Capo"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Violin Concerto No. 1 in A Minor, BWV 1041",
+    "op": "BWV 1041",
+    "genre": "Concerto",
+    "period": "Baroque",
+    "movements": [
+      "I. Allegro moderato",
+      "II. Andante",
+      "III. Allegro assai"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Violin Concerto No. 2 in E Major, BWV 1042",
+    "op": "BWV 1042",
+    "genre": "Concerto",
+    "period": "Baroque",
+    "movements": [
+      "I. Allegro",
+      "II. Adagio",
+      "III. Allegro assai"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Concerto for 2 Violins in D Minor, BWV 1043",
+    "op": "BWV 1043",
+    "genre": "Concerto",
+    "period": "Baroque",
+    "movements": [
+      "I. Vivace",
+      "II. Largo ma non tanto",
+      "III. Allegro"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Concerto for Violin and Oboe in C Minor, BWV 1060",
+    "op": "BWV 1060",
+    "genre": "Concerto",
+    "period": "Baroque",
+    "movements": [
+      "I. Allegro",
+      "II. Adagio",
+      "III. Allegro"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Brandenburg Concerto No. 1 in F Major, BWV 1046",
+    "op": "BWV 1046",
+    "genre": "Concerto",
+    "period": "Baroque",
+    "movements": [
+      "I. Allegro",
+      "II. Adagio",
+      "III. Allegro",
+      "IV. Menuetto"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Brandenburg Concerto No. 2 in F Major, BWV 1047",
+    "op": "BWV 1047",
+    "genre": "Concerto",
+    "period": "Baroque",
+    "movements": [
+      "I. Allegro",
+      "II. Andante",
+      "III. Allegro assai"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Brandenburg Concerto No. 3 in G Major, BWV 1048",
+    "op": "BWV 1048",
+    "genre": "Concerto",
+    "period": "Baroque",
+    "movements": [
+      "I. Allegro",
+      "II. Adagio",
+      "III. Allegro"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Brandenburg Concerto No. 4 in G Major, BWV 1049",
+    "op": "BWV 1049",
+    "genre": "Concerto",
+    "period": "Baroque",
+    "movements": [
+      "I. Allegro",
+      "II. Andante",
+      "III. Presto"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Brandenburg Concerto No. 5 in D Major, BWV 1050",
+    "op": "BWV 1050",
+    "genre": "Concerto",
+    "period": "Baroque",
+    "movements": [
+      "I. Allegro",
+      "II. Affettuoso",
+      "III. Allegro"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Brandenburg Concerto No. 6 in B-Flat Major, BWV 1051",
+    "op": "BWV 1051",
+    "genre": "Concerto",
+    "period": "Baroque",
+    "movements": [
+      "I. Allegro",
+      "II. Adagio ma non tanto",
+      "III. Allegro"
+    ]
+  },
+  {
     "composer": "Gustav Mahler",
     "title": "Symphony No. 1 in D Major, 'Titan'",
     "op": "GMW 11",
@@ -143,6 +305,343 @@
     "period": "Romantic",
     "movements": [
       "I. Adagio"
+    ]
+  },
+  {
+    "composer": "Ludwig van Beethoven",
+    "title": "Symphony No. 1 in C Major, Op. 21",
+    "op": "Op. 21",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Adagio molto - Allegro con brio",
+      "II. Andante cantabile con moto",
+      "III. Menuetto. Allegro molto e vivace",
+      "IV. Finale. Adagio - Allegro molto e vivace"
+    ]
+  },
+  {
+    "composer": "Ludwig van Beethoven",
+    "title": "Symphony No. 2 in D Major, Op. 36",
+    "op": "Op. 36",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Adagio molto - Allegro con brio",
+      "II. Larghetto",
+      "III. Scherzo. Allegro",
+      "IV. Allegro molto"
+    ]
+  },
+  {
+    "composer": "Ludwig van Beethoven",
+    "title": "Symphony No. 3 in E-Flat Major, Op. 55 'Eroica'",
+    "op": "Op. 55",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Allegro con brio",
+      "II. Marcia funebre - Adagio assai",
+      "III. Scherzo. Allegro vivace",
+      "IV. Finale. Allegro molto"
+    ]
+  },
+  {
+    "composer": "Ludwig van Beethoven",
+    "title": "Symphony No. 4 in B-Flat Major, Op. 60",
+    "op": "Op. 60",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Adagio - Allegro vivace",
+      "II. Adagio",
+      "III. Allegro vivace",
+      "IV. Allegro ma non troppo"
+    ]
+  },
+  {
+    "composer": "Ludwig van Beethoven",
+    "title": "Symphony No. 5 in C Minor, Op. 67",
+    "op": "Op. 67",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Allegro con brio",
+      "II. Andante con moto",
+      "III. Scherzo. Allegro",
+      "IV. Allegro"
+    ]
+  },
+  {
+    "composer": "Ludwig van Beethoven",
+    "title": "Symphony No. 6 in F Major, Op. 68 'Pastoral'",
+    "op": "Op. 68",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Erwachen heiterer Empfindungen bei der Ankunft auf dem Lande. Allegro ma non troppo",
+      "II. Szene am Bach. Andante molto mosso",
+      "III. Lustiges Zusammensein der Landleute. Allegro",
+      "IV. Gewitter, Sturm. Allegro",
+      "V. Hirtengesang. Frohe und dankbare Gefühle nach dem Sturm. Allegretto"
+    ]
+  },
+  {
+    "composer": "Ludwig van Beethoven",
+    "title": "Symphony No. 7 in A Major, Op. 92",
+    "op": "Op. 92",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Poco sostenuto - Vivace",
+      "II. Allegretto",
+      "III. Presto",
+      "IV. Allegro con brio"
+    ]
+  },
+  {
+    "composer": "Ludwig van Beethoven",
+    "title": "Symphony No. 8 in F Major, Op. 93",
+    "op": "Op. 93",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Allegro vivace e con brio",
+      "II. Allegretto scherzando",
+      "III. Tempo di menuetto",
+      "IV. Allegro vivace"
+    ]
+  },
+  {
+    "composer": "Ludwig van Beethoven",
+    "title": "Symphony No. 9 in D Minor, Op. 125 'Choral'",
+    "op": "Op. 125",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Allegro ma non troppo, un poco maestoso",
+      "II. Scherzo. Molto vivace - Presto",
+      "III. Adagio molto e cantabile",
+      "IV. Presto - Allegro molto assai"
+    ]
+  },
+  {
+    "composer": "Ludwig van Beethoven",
+    "title": "Violin Concerto in D Major, Op. 61",
+    "op": "Op. 61",
+    "genre": "Concerto",
+    "period": "Classical",
+    "movements": [
+      "I. Allegro ma non troppo - Cadenza",
+      "II. Larghetto",
+      "III. Rondo. Allegro - Cadenza"
+    ]
+  },
+  {
+    "composer": "Ludwig van Beethoven",
+    "title": "Piano Concerto No. 1 in C Major, Op. 15",
+    "op": "Op. 15",
+    "genre": "Concerto",
+    "period": "Classical",
+    "movements": [
+      "I. Allegro con brio",
+      "II. Largo",
+      "III. Rondo. Allegro scherzando"
+    ]
+  },
+  {
+    "composer": "Ludwig van Beethoven",
+    "title": "Piano Concerto No. 2 in B-Flat Major, Op. 19",
+    "op": "Op. 19",
+    "genre": "Concerto",
+    "period": "Classical",
+    "movements": [
+      "I. Allegro con brio",
+      "II. Adagio",
+      "III. Rondo. Molto allegro"
+    ]
+  },
+  {
+    "composer": "Ludwig van Beethoven",
+    "title": "Piano Concerto No. 3 in C Minor, Op. 37",
+    "op": "Op. 37",
+    "genre": "Concerto",
+    "period": "Classical",
+    "movements": [
+      "I. Allegro con brio",
+      "II. Largo",
+      "III. Rondo. Allegro"
+    ]
+  },
+  {
+    "composer": "Ludwig van Beethoven",
+    "title": "Piano Concerto No. 4 in G Major, Op. 58",
+    "op": "Op. 58",
+    "genre": "Concerto",
+    "period": "Classical",
+    "movements": [
+      "I. Allegro moderato",
+      "II. Andante con moto",
+      "III. Rondo. Vivace - Presto"
+    ]
+  },
+  {
+    "composer": "Ludwig van Beethoven",
+    "title": "Piano Concerto No. 5 in E-Flat Major, Op. 73 'Emperor'",
+    "op": "Op. 73",
+    "genre": "Concerto",
+    "period": "Classical",
+    "movements": [
+      "I. Allegro",
+      "II. Adagio un poco mosso",
+      "III. Rondo. Allegro, ma non troppo"
+    ]
+  },
+  {
+    "composer": "Johannes Brahms",
+    "title": "Symphony No. 1 in C Minor, Op. 68",
+    "op": "Op. 68",
+    "genre": "Symphony",
+    "period": "Romantic",
+    "movements": [
+      "I. Un poco sostenuto - Allegro",
+      "II. Andante sostenuto",
+      "III. Un poco allegretto e grazioso",
+      "IV. Adagio - Più andante - Allegro non troppo, ma con brio - Più Allegro"
+    ]
+  },
+  {
+    "composer": "Johannes Brahms",
+    "title": "Symphony No. 2 in D Major, Op. 73",
+    "op": "Op. 73",
+    "genre": "Symphony",
+    "period": "Romantic",
+    "movements": [
+      "I. Allegro non troppo",
+      "II. Adagio non troppo",
+      "III. Allegretto grazioso. Quasi andantino",
+      "IV. Allegro con spirito"
+    ]
+  },
+  {
+    "composer": "Johannes Brahms",
+    "title": "Symphony No. 3 in F Major, Op. 90",
+    "op": "Op. 90",
+    "genre": "Symphony",
+    "period": "Romantic",
+    "movements": [
+      "I. Allegro con brio",
+      "II. Andante",
+      "III. Poco Allegretto",
+      "IV. Allegro"
+    ]
+  },
+  {
+    "composer": "Johannes Brahms",
+    "title": "Symphony No. 4 in E Minor, Op. 98",
+    "op": "Op. 98",
+    "genre": "Symphony",
+    "period": "Romantic",
+    "movements": [
+      "I. Allegro non troppo",
+      "II. Andante moderato",
+      "III. Allegro giocoso",
+      "IV. Allegro energico e passionato - Più allegro"
+    ]
+  },
+  {
+    "composer": "Johannes Brahms",
+    "title": "Academic Festival Overture, Op. 80",
+    "op": "Op. 80",
+    "genre": "Overture",
+    "period": "Romantic",
+    "movements": []
+  },
+  {
+    "composer": "Johannes Brahms",
+    "title": "Tragic Overture, Op. 81",
+    "op": "Op. 81",
+    "genre": "Overture",
+    "period": "Romantic",
+    "movements": []
+  },
+  {
+    "composer": "Pyotr Ilyich Tchaikovsky",
+    "title": "Symphony No. 1 in G Minor, Op. 13 'Winter Daydreams'",
+    "op": "Op. 13",
+    "genre": "Symphony",
+    "period": "Romantic",
+    "movements": [
+      "I. Dreams of a Winter Journey. Allegro tranquillo",
+      "II. Land of Desolation, Land of Mists. Andante cantabile ma non tanto",
+      "III. Scherzo. Allegro scherzando giocoso",
+      "IV. Finale. Andante lugubre - Allegro moderato - Allegro maestoso - Allegro vivo"
+    ]
+  },
+  {
+    "composer": "Pyotr Ilyich Tchaikovsky",
+    "title": "Symphony No. 2 in C Minor, Op. 17 'Little Russian'",
+    "op": "Op. 17",
+    "genre": "Symphony",
+    "period": "Romantic",
+    "movements": [
+      "I. Andante sostenuto - Allegro vivo",
+      "II. Andantino marziale, quasi moderato",
+      "III. Scherzo. Allegro molto vivace - Trio",
+      "IV. Finale. Moderato assai - Allegro vivo - Presto"
+    ]
+  },
+  {
+    "composer": "Pyotr Ilyich Tchaikovsky",
+    "title": "Symphony No. 3 in D Major, Op. 29 'Polish'",
+    "op": "Op. 29",
+    "genre": "Symphony",
+    "period": "Romantic",
+    "movements": [
+      "I. Introduzione e Allegro. Moderato assai",
+      "II. Alla tedesca. Allegro moderato e semplice",
+      "III. Andante elegiaco",
+      "IV. Scherzo. Allegro vivo",
+      "V. Finale. Allegro con fuoco - Tempo di polacca"
+    ]
+  },
+  {
+    "composer": "Pyotr Ilyich Tchaikovsky",
+    "title": "Symphony No. 4 in F Minor, Op. 36",
+    "op": "Op. 36",
+    "genre": "Symphony",
+    "period": "Romantic",
+    "movements": [
+      "I. Andante sostenuto - Moderato con anima",
+      "II. Andantino in modo di canzone",
+      "III. Scherzo. Pizzicato ostinato - Allegro",
+      "IV. Finale. Allegro con fuoco"
+    ]
+  },
+  {
+    "composer": "Pyotr Ilyich Tchaikovsky",
+    "title": "Symphony No. 5 in E Minor, Op. 64",
+    "op": "Op. 64",
+    "genre": "Symphony",
+    "period": "Romantic",
+    "movements": [
+      "I. Andante - Allegro con anima",
+      "II. Andante cantabile con alcuna licenza - Moderato con anima",
+      "III. Valse. Allegro moderato",
+      "IV. Finale. Andante maestoso - Allegro vivace"
+    ]
+  },
+  {
+    "composer": "Pyotr Ilyich Tchaikovsky",
+    "title": "Symphony No. 6 in B Minor, Op. 74 'Pathétique'",
+    "op": "Op. 74",
+    "genre": "Symphony",
+    "period": "Romantic",
+    "movements": [
+      "I. Adagio - Allegro non troppo",
+      "II. Allegro con gracia",
+      "III. Allegro molto vivace",
+      "IV. Finale. Adagio lamentoso - Andante"
     ]
   },
   {

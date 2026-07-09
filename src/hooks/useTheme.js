@@ -32,9 +32,21 @@ export default function useTheme() {
         return true
     }
 
+    const getInitialItemsPerPage = () => {
+        try {
+            const saved = localStorage.getItem('siteItemsPerPage')
+            if (saved) {
+                const parsed = parseInt(saved, 10)
+                if (!isNaN(parsed) && parsed >= 5 && parsed <= 100) return parsed
+            }
+        } catch (e) {}
+        return 20
+    }
+
     const [mode, setMode] = useState(getInitialMode)
     const [fontSizeScale, setFontSizeScale] = useState(getInitialFontSizeScale)
     const [clickCopyEnabled, setClickCopyEnabled] = useState(getInitialClickCopyEnabled)
+    const [itemsPerPage, setItemsPerPage] = useState(getInitialItemsPerPage)
 
     useEffect(() => {
         if (typeof document !== 'undefined') {
@@ -56,6 +68,12 @@ export default function useTheme() {
             localStorage.setItem('siteClickCopyEnabled', clickCopyEnabled)
         } catch (e) {}
     }, [clickCopyEnabled])
+
+    useEffect(() => {
+        try {
+            localStorage.setItem('siteItemsPerPage', itemsPerPage)
+        } catch (e) {}
+    }, [itemsPerPage])
 
     useEffect(() => {
         if (typeof window === 'undefined' || !window.matchMedia) return
@@ -101,5 +119,5 @@ export default function useTheme() {
         setFontSizeScale(scale)
     }, [])
 
-    return { mode, toggleMode, setMode: setThemeMode, fontSizeScale, setFontSizeScale: setFontSize, clickCopyEnabled, setClickCopyEnabled }
+    return { mode, toggleMode, setMode: setThemeMode, fontSizeScale, setFontSizeScale: setFontSize, clickCopyEnabled, setClickCopyEnabled, itemsPerPage, setItemsPerPage }
 }

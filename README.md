@@ -19,6 +19,11 @@ Whether you're a performer checking a program, a listener discovering new repert
 - **Dark & light themes** — automatically adapts to your system preference, with manual toggle
 - **Responsive design** — works beautifully on desktop, tablet, and mobile
 
+## Feedback
+
+Found a bug, have a suggestion, or want to request a feature?  
+Feel free to [open an issue](https://github.com/sudo0015/MusicIndexOnline/issues) — all feedback is welcome.
+
 ## License
 
 This project is open source and available under the MIT License.

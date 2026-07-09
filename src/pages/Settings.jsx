@@ -14,13 +14,14 @@ import {
     FormControl,
     Switch,
     Button,
+    IconButton,
     useMediaQuery,
     useTheme,
 } from '@mui/material'
 import Layout from '../components/Layout'
 import musicLogo from '../assets/icon.svg'
 
-function Settings({ themeMode, onSetThemeMode, fontSizeScale, onSetFontSizeScale, clickCopyEnabled, onSetClickCopyEnabled }) {
+function Settings({ themeMode, onSetThemeMode, fontSizeScale, onSetFontSizeScale, clickCopyEnabled, onSetClickCopyEnabled, itemsPerPage, onSetItemsPerPage }) {
     const navigate = useNavigate()
     const theme = useTheme()
     const isCompact = useMediaQuery('(max-width:480px)')
@@ -259,6 +260,106 @@ function Settings({ themeMode, onSetThemeMode, fontSizeScale, onSetFontSizeScale
                                 }}
                                 aria-label="click copy"
                             />
+                        </Box>
+                        <Box
+                            sx={{
+                                display: 'flex',
+                                alignItems: 'center',
+                                justifyContent: 'space-between',
+                                gap: 2,
+                                mt: 3,
+                            }}
+                        >
+                            <Box sx={{ minWidth: 0 }}>
+                                <Typography
+                                    variant="subtitle1"
+                                    sx={{
+                                        fontFamily: '"EB Garamond", Georgia, serif',
+                                        fontWeight: 600,
+                                        fontSize: '1.15rem',
+                                    }}
+                                >
+                                    Works per page
+                                </Typography>
+                                <Typography
+                                    variant="body2"
+                                    color="text.secondary"
+                                    sx={{ fontFamily: '"EB Garamond", Georgia, serif', mt: 0.5 }}
+                                >
+                                    Number of works displayed per page
+                                </Typography>
+                            </Box>
+                            <Box
+                                sx={{
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    border: 1,
+                                    borderColor: 'divider',
+                                    borderRadius: 2,
+                                    overflow: 'hidden',
+                                    flexShrink: 0,
+                                    height: 46,
+                                }}
+                            >
+                                <IconButton
+                                    onClick={() => {
+                                        if (onSetItemsPerPage && itemsPerPage > 5) {
+                                            onSetItemsPerPage(itemsPerPage - 5)
+                                        }
+                                    }}
+                                    disabled={itemsPerPage <= 5}
+                                    size="small"
+                                    sx={{
+                                        borderRadius: 0,
+                                        borderRight: 1,
+                                        borderColor: 'divider',
+                                        '&:hover': { bgcolor: 'action.hover' },
+                                        height: '100%',
+                                        width: 46,
+                                    }}
+                                >
+                                    <span className="mdi mdi-minus" style={{ fontSize: '1rem' }} />
+                                </IconButton>
+                                <Box
+                                    sx={{
+                                        display: 'flex',
+                                        alignItems: 'center',
+                                        justifyContent: 'center',
+                                        px: 1.5,
+                                        minWidth: 36,
+                                    }}
+                                >
+                                    <Typography
+                                        sx={{
+                                            fontFamily: '"EB Garamond", Georgia, serif',
+                                            fontSize: '0.95rem',
+                                            fontWeight: 600,
+                                            lineHeight: 1,
+                                        }}
+                                    >
+                                        {itemsPerPage}
+                                    </Typography>
+                                </Box>
+                                <IconButton
+                                    onClick={() => {
+                                        if (onSetItemsPerPage && itemsPerPage < 100) {
+                                            onSetItemsPerPage(itemsPerPage + 5)
+                                        }
+                                    }}
+                                    disabled={itemsPerPage >= 100}
+                                    size="small"
+                                    sx={{
+                                        borderRadius: 0,
+                                        borderLeft: 1,
+                                        borderColor: 'divider',
+                                        '&:hover': { bgcolor: 'action.hover' },
+                                        height: '100%',
+                                        width: 46,
+                                    }}
+                                >
+                                    <span className="mdi mdi-plus" style={{ fontSize: '1rem' }} />
+                                </IconButton>
+                            </Box>
                         </Box>
                     </CardContent>
                 </Card>

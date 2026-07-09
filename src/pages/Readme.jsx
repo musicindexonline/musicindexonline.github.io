@@ -125,6 +125,27 @@ function Readme() {
                 <Divider sx={{ my: 2 }} />
 
                 <Typography variant="h5" sx={h2Sx}>
+                    Feedback
+                </Typography>
+
+                <Typography variant="body1" sx={bodySx}>
+                    Found a bug, have a suggestion, or want to request a feature?
+                    {' Feel free to '}
+                    <Link
+                        href="https://github.com/sudo0015/MusicIndexOnline/issues"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        underline="hover"
+                        sx={linkSx}
+                    >
+                        open an issue
+                    </Link>
+                    {' — all feedback is welcome.'}
+                </Typography>
+
+                <Divider sx={{ my: 2 }} />
+
+                <Typography variant="h5" sx={h2Sx}>
                     License
                 </Typography>
 

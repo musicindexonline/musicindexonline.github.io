@@ -12,17 +12,17 @@ import '@mdi/font/css/materialdesignicons.min.css'
 import './App.css'
 
 function Root() {
-  const { mode, toggleMode, setMode, fontSizeScale, setFontSizeScale, clickCopyEnabled, setClickCopyEnabled } = useTheme()
+  const { mode, toggleMode, setMode, fontSizeScale, setFontSizeScale, clickCopyEnabled, setClickCopyEnabled, itemsPerPage, setItemsPerPage } = useTheme()
   const theme = mode === 'dark' ? darkTheme : lightTheme
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <HashRouter>
         <Routes>
-          <Route path="/" element={<App onToggleTheme={toggleMode} themeMode={mode} clickCopyEnabled={clickCopyEnabled} />} />
+          <Route path="/" element={<App onToggleTheme={toggleMode} themeMode={mode} clickCopyEnabled={clickCopyEnabled} itemsPerPage={itemsPerPage} />} />
           <Route
             path="/settings"
-            element={<Settings themeMode={mode} onSetThemeMode={setMode} fontSizeScale={fontSizeScale} onSetFontSizeScale={setFontSizeScale} clickCopyEnabled={clickCopyEnabled} onSetClickCopyEnabled={setClickCopyEnabled} />}
+            element={<Settings themeMode={mode} onSetThemeMode={setMode} fontSizeScale={fontSizeScale} onSetFontSizeScale={setFontSizeScale} clickCopyEnabled={clickCopyEnabled} onSetClickCopyEnabled={setClickCopyEnabled} itemsPerPage={itemsPerPage} onSetItemsPerPage={setItemsPerPage} />}
           />
           <Route path="/readme" element={<Readme />} />
           <Route path="*" element={<Navigate to="/" replace />} />

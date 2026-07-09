@@ -10,9 +10,7 @@ function getComposerShort(composer) {
   return composerMap[composer] || composer
 }
 
-const ITEMS_PER_PAGE = 20
-
-function App({ onToggleTheme, themeMode, clickCopyEnabled }) {
+function App({ onToggleTheme, themeMode, clickCopyEnabled, itemsPerPage = 20 }) {
   const { data, loading, error } = useMusicData()
   const [searchTerm, setSearchTerm] = useState('')
   const [filters, setFilters] = useState({ composer: [], genre: [], period: [] })
@@ -25,8 +23,8 @@ function App({ onToggleTheme, themeMode, clickCopyEnabled }) {
   }, [searchTerm, filters])
 
   const total = filteredData.length
-  const startIndex = (page - 1) * ITEMS_PER_PAGE
-  const endIndex = Math.min(startIndex + ITEMS_PER_PAGE, total)
+  const startIndex = (page - 1) * itemsPerPage
+  const endIndex = Math.min(startIndex + itemsPerPage, total)
   const countText = total > 0 ? `${startIndex + 1}-${endIndex} of ${total} works` : `${total} works`
 
   const [snackbarOpen, setSnackbarOpen] = useState(false)
@@ -94,7 +92,7 @@ function App({ onToggleTheme, themeMode, clickCopyEnabled }) {
           filters={filters}
           page={page}
           onPageChange={setPage}
-          itemsPerPage={ITEMS_PER_PAGE}
+          itemsPerPage={itemsPerPage}
           onCopyText={showCopied}
           clickCopyEnabled={clickCopyEnabled}
         />
