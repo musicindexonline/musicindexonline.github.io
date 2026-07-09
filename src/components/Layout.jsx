@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react'
+import { useLocation, useNavigate } from 'react-router-dom'
 import { AppBar, Toolbar, Typography, Container, Box, TextField, InputAdornment, IconButton, Slide, Fade, useTheme, useMediaQuery } from '@mui/material'
 import musicLogo from '../assets/icon.svg'
 
@@ -33,6 +34,8 @@ const searchInputSx = (theme) => ({
 })
 
 function Layout({ children, searchTerm, onSearchChange }) {
+  const navigate = useNavigate()
+  const location = useLocation()
   const theme = useTheme()
   const isCompact = useMediaQuery(theme.breakpoints.down('md'))
   const isVeryCompact = useMediaQuery('(max-width:480px)')
@@ -40,10 +43,16 @@ function Layout({ children, searchTerm, onSearchChange }) {
   const [searchExpanded, setSearchExpanded] = useState(false)
   const [titleHidden, setTitleHidden] = useState(false)
   const [showSearchButton, setShowSearchButton] = useState(true)
+  const [backButtonVisible, setBackButtonVisible] = useState(false)
   const searchInputRef = useRef(null)
   const animTimerRef = useRef(null)
 
   const showSearchInput = !!searchTerm || searchExpanded
+  const onSettings = location.pathname === '/settings'
+
+  useEffect(() => {
+    setBackButtonVisible(onSettings)
+  }, [onSettings])
 
   useEffect(() => {
     if (searchExpanded && searchInputRef.current) {
@@ -101,7 +110,48 @@ function Layout({ children, searchTerm, onSearchChange }) {
     <Box sx={{ minHeight: '100vh' }}>
       <AppBar position="sticky" sx={{ top: 0, zIndex: 1100, bgcolor: theme.palette.mode === 'dark' ? '#9E6B47' : '#8C5D3E' }}>
         <Toolbar sx={{ overflow: 'hidden' }}>
-          <Box sx={{ mr: 2, display: 'inline-flex', alignItems: 'center', flexShrink: 0 }}>
+          <Slide direction="right" in={backButtonVisible} mountOnEnter unmountOnExit timeout={250}>
+            <IconButton
+              onClick={() => navigate('/')}
+              sx={{
+                flexShrink: 0,
+                mr: 2,
+                height: '40px',
+                width: '40px',
+                borderRadius: '9999px',
+                bgcolor: theme.palette.mode === 'dark'
+                  ? 'rgba(255,255,255,0.08)'
+                  : 'rgba(255,255,255,0.20)',
+                border: '1px solid',
+                borderColor: theme.palette.mode === 'dark'
+                  ? 'rgba(255,255,255,0.20)'
+                  : theme.palette.primary.contrastText + '55',
+                transition: 'border-color 200ms ease, background-color 200ms ease',
+                '&:hover': {
+                  bgcolor: theme.palette.mode === 'dark'
+                    ? 'rgba(255,255,255,0.15)'
+                    : 'rgba(255,255,255,0.30)',
+                  borderColor: theme.palette.mode === 'dark'
+                    ? 'rgba(255,255,255,0.40)'
+                    : theme.palette.primary.contrastText + 'BB',
+                },
+              }}
+            >
+              <span
+                className="mdi mdi-arrow-left"
+                style={{ color: theme.palette.primary.contrastText, fontSize: '1.5rem' }}
+              />
+            </IconButton>
+          </Slide>
+          <Box
+            sx={{
+              mr: 2,
+              display: 'inline-flex',
+              alignItems: 'center',
+              flexShrink: 0,
+              transition: 'margin 250ms ease',
+            }}
+          >
             <img
               src={musicLogo}
               alt="Music Logo"
@@ -130,70 +180,77 @@ function Layout({ children, searchTerm, onSearchChange }) {
 
           {isCompact ? (
             <>
-              {showSearchButton && (
-                <>
-                  {!showTitle && <Box sx={{ flexGrow: 1 }} />}
-                  <IconButton color="inherit" onClick={handleSearchToggle} sx={{ flexShrink: 0 }}>
-                    <span
-                      className="mdi mdi-magnify"
-                      style={{ color: theme.palette.primary.contrastText, fontSize: '1.5rem' }}
-                    />
-                  </IconButton>
-                </>
-              )}
-              <Slide direction="left" in={showSearchInput} mountOnEnter unmountOnExit onExited={handleSlideExited}>
-                <Box sx={{ flexGrow: 1, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                  <TextField
-                    placeholder="Search"
-                    value={searchTerm}
-                    onChange={(e) => onSearchChange(e.target.value)}
-                    size="small"
-                    inputRef={searchInputRef}
-                    onBlur={handleSearchBlur}
-                    autoFocus
-                    sx={searchInputSx(theme)}
-                    InputProps={{
-                      endAdornment: (
-                        <InputAdornment position="end">
-                          <IconButton
-                            size="small"
-                            onClick={handleSearchToggle}
-                            sx={{ color: theme.palette.primary.contrastText, p: 0.5 }}
-                          >
-                            <span className="mdi mdi-close" style={{ fontSize: '1.1rem' }} />
-                          </IconButton>
-                        </InputAdornment>
-                      ),
-                    }}
-                  />
+              <Slide direction="left" in={!onSettings} mountOnEnter unmountOnExit timeout={250}>
+                <Box sx={{ display: 'flex', alignItems: 'center', flex: showSearchInput ? '1 1 auto' : '0 0 auto' }}>
+                  {showSearchButton && (
+                    <>
+                      {!showTitle && <Box sx={{ flexGrow: 1 }} />}
+                      <IconButton color="inherit" onClick={handleSearchToggle} sx={{ flexShrink: 0 }}>
+                        <span
+                          className="mdi mdi-magnify"
+                          style={{ color: theme.palette.primary.contrastText, fontSize: '1.5rem' }}
+                        />
+                      </IconButton>
+                    </>
+                  )}
+                  <Slide direction="left" in={showSearchInput} mountOnEnter unmountOnExit onExited={handleSlideExited}>
+                    <Box sx={{ flexGrow: 1, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                      <TextField
+                        placeholder="Search"
+                        value={searchTerm}
+                        onChange={(e) => onSearchChange(e.target.value)}
+                        size="small"
+                        inputRef={searchInputRef}
+                        onBlur={handleSearchBlur}
+                        autoFocus
+                        sx={searchInputSx(theme)}
+                        InputProps={{
+                          endAdornment: (
+                            <InputAdornment position="end">
+                              <IconButton
+                                size="small"
+                                onClick={handleSearchToggle}
+                                sx={{ color: theme.palette.primary.contrastText, p: 0.5 }}
+                              >
+                                <span className="mdi mdi-close" style={{ fontSize: '1.1rem' }} />
+                              </IconButton>
+                            </InputAdornment>
+                          ),
+                        }}
+                      />
+                    </Box>
+                  </Slide>
+                  {showSearchInput && <Box sx={{ width: 40, flexShrink: 0 }} />}
                 </Box>
               </Slide>
-              {showSearchInput && <Box sx={{ width: 40, flexShrink: 0 }} />}
             </>
           ) : (
-            <TextField
-              placeholder="Search"
-              value={searchTerm}
-              onChange={(e) => onSearchChange(e.target.value)}
-              size="small"
-              sx={{
-                width: { xs: '55%', sm: '40%', md: '320px' },
-                ...searchInputSx(theme),
-              }}
-              InputProps={{
-                endAdornment: (
-                  <InputAdornment position="end">
-                    <span
-                      className="mdi mdi-magnify"
-                      style={{
-                        color: theme.palette.primary.contrastText,
-                        fontSize: '1.15rem',
-                      }}
-                    />
-                  </InputAdornment>
-                ),
-              }}
-            />
+            <Slide direction="left" in={!onSettings} mountOnEnter unmountOnExit timeout={250}>
+              <TextField
+                placeholder="Search"
+                value={searchTerm}
+                onChange={(e) => onSearchChange(e.target.value)}
+                size="small"
+                sx={{
+                  width: { xs: '55%', sm: '40%', md: '320px' },
+                  ...searchInputSx(theme),
+                  flexShrink: 0,
+                }}
+                InputProps={{
+                  endAdornment: (
+                    <InputAdornment position="end">
+                      <span
+                        className="mdi mdi-magnify"
+                        style={{
+                          color: theme.palette.primary.contrastText,
+                          fontSize: '1.15rem',
+                        }}
+                      />
+                    </InputAdornment>
+                  ),
+                }}
+              />
+            </Slide>
           )}
         </Toolbar>
       </AppBar>

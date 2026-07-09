@@ -41,6 +41,14 @@ export default function useTheme() {
         }
     }, [])
 
+    const setThemeMode = useCallback((next) => {
+        if (next !== 'light' && next !== 'dark') return
+        try {
+            localStorage.setItem('siteTheme', next)
+        } catch (e) {}
+        setMode(next)
+    }, [])
+
     const toggleMode = useCallback(() => {
         setMode((prev) => {
             const next = prev === 'dark' ? 'light' : 'dark'
@@ -51,5 +59,5 @@ export default function useTheme() {
         })
     }, [])
 
-    return { mode, toggleMode }
+    return { mode, toggleMode, setMode: setThemeMode }
 }

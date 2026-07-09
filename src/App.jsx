@@ -80,8 +80,6 @@ function App({ onToggleTheme, themeMode }) {
           filters={filters}
           onFilterChange={setFilters}
           countText={countText}
-          onToggleTheme={onToggleTheme}
-          themeMode={themeMode}
         />
       </Paper>
 

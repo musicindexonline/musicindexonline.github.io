@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import {
   Box,
   Typography,
@@ -21,11 +22,9 @@ function FilterBar({
   filters,
   onFilterChange,
   countText = '',
-  onToggleTheme,
-  themeMode,
 }) {
+  const navigate = useNavigate()
   const [dialogOpen, setDialogOpen] = useState(false)
-  const isDark = themeMode === 'dark'
 
   const handleChange = (field) => (event) => {
     onFilterChange({ ...filters, [field]: event.target.value })
@@ -96,8 +95,8 @@ function FilterBar({
       <Button
         variant="contained"
         color="secondary"
-        onClick={onToggleTheme}
-        startIcon={<span className={`mdi ${isDark ? 'mdi-weather-sunny' : 'mdi-weather-night'}`} />}
+        onClick={() => navigate('/settings')}
+        startIcon={<span className="mdi mdi-cog-outline" />}
         sx={{
           borderRadius: '6px',
           py: { xs: 0, sm: 0.8 },
@@ -110,12 +109,18 @@ function FilterBar({
           textTransform: 'none',
           whiteSpace: 'nowrap',
           boxShadow: 'none',
+          color: (t) => t.palette.primary.contrastText,
+          '& .MuiButton-startIcon': {
+            mr: { xs: 0, sm: 0.5 },
+            ml: { xs: 0, sm: -0.25 },
+            color: (t) => t.palette.primary.contrastText,
+          },
+          '& .MuiButton-icon': { color: (t) => t.palette.primary.contrastText },
           '&:hover': { boxShadow: 'none' },
-          '& .MuiButton-startIcon': { mr: { xs: 0, sm: 0.5 }, ml: { xs: 0, sm: -0.25 } },
         }}
       >
         <Box component="span" sx={{ display: { xs: 'none', sm: 'inline' } }}>
-          {isDark ? 'Light' : 'Dark'}
+          Settings
         </Box>
       </Button>
       <Dialog
