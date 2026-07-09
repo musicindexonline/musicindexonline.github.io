@@ -181,7 +181,7 @@ function Layout({ children, searchTerm, onSearchChange }) {
           {isCompact ? (
             <>
               <Slide direction="left" in={!onSettings} mountOnEnter unmountOnExit timeout={250}>
-                <Box sx={{ display: 'flex', alignItems: 'center', flex: showSearchInput ? '1 1 auto' : '0 0 auto' }}>
+                <Box sx={{ display: 'flex', alignItems: 'center', flex: (showSearchInput || !showTitle) ? '1 1 auto' : '0 0 auto' }}>
                   {showSearchButton && (
                     <>
                       {!showTitle && <Box sx={{ flexGrow: 1 }} />}

@@ -50,7 +50,7 @@ function FilterBar({
         variant="contained"
         color="primary"
         onClick={() => setDialogOpen(true)}
-        startIcon={<span className="mdi mdi-filter" />}
+        startIcon={<span className={`mdi ${hasFilters ? 'mdi-filter' : 'mdi-filter-outline'}`} />}
         sx={{
           borderRadius: '6px',
           py: { xs: 0, sm: 0.8 },
