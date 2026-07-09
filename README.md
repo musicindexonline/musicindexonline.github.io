@@ -2,8 +2,6 @@
 
 *An open-source catalog of classical masterworks — search, browse and explore.*
 
----
-
 ## Introduction
 
 Music Index Online is a searchable, open-source catalog of classical music works. It indexes compositions by composer, title, opus number, genre, and period, with detailed movement listings — all presented through an elegant, distraction-free interface.
@@ -11,8 +9,6 @@ Music Index Online is a searchable, open-source catalog of classical music works
 Whether you're a performer checking a program, a listener discovering new repertoire, or a researcher cataloging works, Music Index Online makes it easy to find and copy the information you need.
 
 **Visit:** [https://sudo0015.github.io/MusicIndexOnline/](https://sudo0015.github.io/MusicIndexOnline/)
-
----
 
 ## Features
 
@@ -23,13 +19,9 @@ Whether you're a performer checking a program, a listener discovering new repert
 - **Dark & light themes** — automatically adapts to your system preference, with manual toggle
 - **Responsive design** — works beautifully on desktop, tablet, and mobile
 
----
-
 ## License
 
 This project is open source and available under the MIT License.
-
----
 
 ## Credits
 
@@ -38,7 +30,6 @@ This project is open source and available under the MIT License.
 - Icons by [Material Design Icons](https://pictogrammers.com/library/mdi/)
 - Hosted by [GitHub Pages](https://pages.github.com)
 
----
 
 <p align="center">
   <sub>© 2026 BUG STUDIO</sub>

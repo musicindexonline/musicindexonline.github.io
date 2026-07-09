@@ -111,7 +111,11 @@ function Settings({ themeMode, onSetThemeMode, fontSizeScale, onSetFontSizeScale
                                 aria-label="theme mode"
                                 size="small"
                             >
-                                <ToggleButton value="light" aria-label="light mode">
+                                <ToggleButton
+                                    value="light"
+                                    aria-label="light mode"
+                                    sx={isCompact ? { minWidth: 40, minHeight: 40, p: 0 } : {}}
+                                >
                                     <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, px: isCompact ? 0.5 : 1 }}>
                                         <span className="mdi mdi-weather-sunny" />
                                         {!isCompact && (
@@ -127,7 +131,11 @@ function Settings({ themeMode, onSetThemeMode, fontSizeScale, onSetFontSizeScale
                                         )}
                                     </Box>
                                 </ToggleButton>
-                                <ToggleButton value="dark" aria-label="dark mode">
+                                <ToggleButton
+                                    value="dark"
+                                    aria-label="dark mode"
+                                    sx={isCompact ? { minWidth: 40, minHeight: 40, p: 0 } : {}}
+                                >
                                     <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, px: isCompact ? 0.5 : 1 }}>
                                         <span className="mdi mdi-weather-night" />
                                         {!isCompact && (
@@ -330,16 +338,21 @@ function Settings({ themeMode, onSetThemeMode, fontSizeScale, onSetFontSizeScale
                             <Button
                                 variant="outlined"
                                 size="small"
-                                startIcon={<span className="mdi mdi-open-in-new" />}
+                                startIcon={!isCompact ? <span className="mdi mdi-open-in-new" /> : undefined}
                                 onClick={() => navigate('/readme')}
                                 sx={{
                                     fontFamily: '"EB Garamond", serif',
                                     textTransform: 'none',
                                     fontSize: '0.95rem',
                                     borderRadius: 2,
+                                    ...(isCompact && { minWidth: 40, minHeight: 40, p: 0 }),
                                 }}
                             >
-                                README
+                                {isCompact ? (
+                                    <span className="mdi mdi-open-in-new" />
+                                ) : (
+                                    'README'
+                                )}
                             </Button>
                         </Box>
                     </CardContent>

@@ -108,7 +108,7 @@ function Layout({ children, searchTerm, onSearchChange }) {
 
   return (
     <Box sx={{ minHeight: '100vh' }}>
-      <AppBar position="sticky" sx={{ top: 0, zIndex: 1100, bgcolor: theme.palette.mode === 'dark' ? '#9E6B47' : '#8C5D3E' }}>
+      <AppBar position="fixed" sx={{ top: 0, zIndex: 1100, bgcolor: theme.palette.mode === 'dark' ? '#9E6B47' : '#8C5D3E' }}>
         <Toolbar sx={{ overflow: 'hidden' }}>
           <Slide direction="right" in={backButtonVisible} mountOnEnter unmountOnExit timeout={250}>
             <IconButton
@@ -254,6 +254,7 @@ function Layout({ children, searchTerm, onSearchChange }) {
           )}
         </Toolbar>
       </AppBar>
+      <Box sx={{ height: { xs: '56px', sm: '64px' } }} />
       <Container component="main" maxWidth="lg" sx={{ py: 3 }}>
         {children}
         <Box component="footer" sx={{ mt: 4, py: 3, textAlign: 'center', borderTop: 1, borderColor: 'divider' }}>
