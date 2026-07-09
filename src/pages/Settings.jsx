@@ -1,4 +1,5 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import {
     Box,
     Typography,
@@ -8,20 +9,32 @@ import {
     Divider,
     ToggleButton,
     ToggleButtonGroup,
-    Slider,
+    Select,
+    MenuItem,
+    FormControl,
+    Switch,
+    Button,
+    useMediaQuery,
+    useTheme,
 } from '@mui/material'
 import Layout from '../components/Layout'
+import musicLogo from '../assets/icon.svg'
 
-function Settings({ themeMode, onSetThemeMode, fontSizeScale, onSetFontSizeScale }) {
+function Settings({ themeMode, onSetThemeMode, fontSizeScale, onSetFontSizeScale, clickCopyEnabled, onSetClickCopyEnabled }) {
+    const navigate = useNavigate()
+    const theme = useTheme()
+    const isCompact = useMediaQuery('(max-width:480px)')
     const handleThemeChange = (event, next) => {
         if (next && onSetThemeMode) {
             onSetThemeMode(next)
         }
     }
 
-    const handleFontSizeChange = (event, newValue) => {
+    const fontSizeOptions = [0.5, 0.6, 0.7, 0.8, 0.9, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 1.9, 2.0]
+
+    const handleFontSizeChange = (event) => {
         if (onSetFontSizeScale) {
-            onSetFontSizeScale(newValue)
+            onSetFontSizeScale(event.target.value)
         }
     }
 
@@ -99,31 +112,35 @@ function Settings({ themeMode, onSetThemeMode, fontSizeScale, onSetFontSizeScale
                                 size="small"
                             >
                                 <ToggleButton value="light" aria-label="light mode">
-                                    <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, px: 1 }}>
+                                    <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, px: isCompact ? 0.5 : 1 }}>
                                         <span className="mdi mdi-weather-sunny" />
-                                        <Typography
-                                            sx={{
-                                                fontFamily: '"EB Garamond", serif',
-                                                textTransform: 'none',
-                                                fontSize: '0.95rem',
-                                            }}
-                                        >
-                                            Light
-                                        </Typography>
+                                        {!isCompact && (
+                                            <Typography
+                                                sx={{
+                                                    fontFamily: '"EB Garamond", serif',
+                                                    textTransform: 'none',
+                                                    fontSize: '0.95rem',
+                                                }}
+                                            >
+                                                Light
+                                            </Typography>
+                                        )}
                                     </Box>
                                 </ToggleButton>
                                 <ToggleButton value="dark" aria-label="dark mode">
-                                    <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, px: 1 }}>
+                                    <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, px: isCompact ? 0.5 : 1 }}>
                                         <span className="mdi mdi-weather-night" />
-                                        <Typography
-                                            sx={{
-                                                fontFamily: '"EB Garamond", serif',
-                                                textTransform: 'none',
-                                                fontSize: '0.95rem',
-                                            }}
-                                        >
-                                            Dark
-                                        </Typography>
+                                        {!isCompact && (
+                                            <Typography
+                                                sx={{
+                                                    fontFamily: '"EB Garamond", serif',
+                                                    textTransform: 'none',
+                                                    fontSize: '0.95rem',
+                                                }}
+                                            >
+                                                Dark
+                                            </Typography>
+                                        )}
                                     </Box>
                                 </ToggleButton>
                             </ToggleButtonGroup>
@@ -148,19 +165,182 @@ function Settings({ themeMode, onSetThemeMode, fontSizeScale, onSetFontSizeScale
                                 >
                                     Text size
                                 </Typography>
-                                <Box sx={{ minWidth: 180 }}>
-                                    <Slider
+                                <FormControl size="small" sx={{ minWidth: isCompact ? 90 : 180 }}>
+                                    <Select
                                         value={fontSizeScale}
                                         onChange={handleFontSizeChange}
-                                        min={0.5}
-                                        max={2.0}
-                                        step={0.05}
                                         aria-label="text size"
-                                        valueLabelDisplay="auto"
-                                        valueLabelFormat={(value) => `${Math.round(value * 100)}%`}
-                                    />
+                                    >
+                                        {fontSizeOptions.map((val) => (
+                                            <MenuItem key={val} value={val}>
+                                                {Math.round(val * 100)}%
+                                            </MenuItem>
+                                        ))}
+                                    </Select>
+                                </FormControl>
+                            </Box>
+                        </Box>
+                    </CardContent>
+                </Card>
+
+                <Card
+                    elevation={0}
+                    sx={{
+                        borderRadius: 2,
+                        border: 1,
+                        borderColor: 'divider',
+                        mb: 3,
+                        overflow: 'hidden',
+                    }}
+                >
+                    <CardHeader
+                        title={
+                            <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.25 }}>
+                <span
+                    className="mdi mdi-tune-variant"
+                    style={{ fontSize: '1.5rem' }}
+                />
+                                <Typography
+                                    variant="h6"
+                                    sx={{
+                                        fontFamily: '"EB Garamond", serif',
+                                        fontWeight: 600,
+                                    }}
+                                >
+                                    Features
+                                </Typography>
+                            </Box>
+                        }
+                        sx={{ pb: 1 }}
+                    />
+                    <Divider />
+                    <CardContent>
+                        <Box
+                            sx={{
+                                display: 'flex',
+                                alignItems: 'center',
+                                justifyContent: 'space-between',
+                                gap: 2,
+                            }}
+                        >
+                            <Box sx={{ minWidth: 0 }}>
+                                <Typography
+                                    variant="subtitle1"
+                                    sx={{
+                                        fontFamily: '"EB Garamond", Georgia, serif',
+                                        fontWeight: 600,
+                                        fontSize: '1.15rem',
+                                    }}
+                                >
+                                    Click copy
+                                </Typography>
+                                <Typography
+                                    variant="body2"
+                                    color="text.secondary"
+                                    sx={{ fontFamily: '"EB Garamond", Georgia, serif', mt: 0.5 }}
+                                >
+                                    Tap title or tags to copy text
+                                </Typography>
+                            </Box>
+                            <Switch
+                                checked={clickCopyEnabled}
+                                onChange={(event) => {
+                                    if (onSetClickCopyEnabled) {
+                                        onSetClickCopyEnabled(event.target.checked)
+                                    }
+                                }}
+                                aria-label="click copy"
+                            />
+                        </Box>
+                    </CardContent>
+                </Card>
+
+                <Card
+                    elevation={0}
+                    sx={{
+                        borderRadius: 2,
+                        border: 1,
+                        borderColor: 'divider',
+                        mb: 3,
+                        overflow: 'hidden',
+                    }}
+                >
+                    <CardHeader
+                        title={
+                            <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.25 }}>
+                <span
+                    className="mdi mdi-information-outline"
+                    style={{ fontSize: '1.5rem' }}
+                />
+                                <Typography
+                                    variant="h6"
+                                    sx={{
+                                        fontFamily: '"EB Garamond", serif',
+                                        fontWeight: 600,
+                                    }}
+                                >
+                                    About
+                                </Typography>
+                            </Box>
+                        }
+                        sx={{ pb: 1 }}
+                    />
+                    <Divider />
+                    <CardContent>
+                        <Box
+                            sx={{
+                                display: 'flex',
+                                alignItems: 'center',
+                                justifyContent: 'space-between',
+                                gap: 2,
+                            }}
+                        >
+                            <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, flex: 1, minWidth: 0 }}>
+                                <Box
+                                    component="img"
+                                    src={musicLogo}
+                                    alt="Music Index Online"
+                                    sx={{
+                                        width: 48,
+                                        height: 48,
+                                        flexShrink: 0,
+                                        filter: theme.palette.mode === 'light' ? 'invert(1)' : 'none',
+                                    }}
+                                />
+                                <Box sx={{ minWidth: 0 }}>
+                                    <Typography
+                                        variant="subtitle1"
+                                        sx={{
+                                            fontFamily: '"Playfair Display", "EB Garamond", Georgia, serif',
+                                            fontWeight: 700,
+                                            fontSize: '1.1rem',
+                                        }}
+                                    >
+                                        Music Index Online
+                                    </Typography>
+                                    <Typography
+                                        variant="body2"
+                                        color="text.secondary"
+                                        sx={{ fontFamily: '"EB Garamond", Georgia, serif' }}
+                                    >
+                                        An open-source catalog of classical masterworks - search, browse and explore.
+                                    </Typography>
                                 </Box>
                             </Box>
+                            <Button
+                                variant="outlined"
+                                size="small"
+                                startIcon={<span className="mdi mdi-open-in-new" />}
+                                onClick={() => navigate('/readme')}
+                                sx={{
+                                    fontFamily: '"EB Garamond", serif',
+                                    textTransform: 'none',
+                                    fontSize: '0.95rem',
+                                    borderRadius: 2,
+                                }}
+                            >
+                                README
+                            </Button>
                         </Box>
                     </CardContent>
                 </Card>

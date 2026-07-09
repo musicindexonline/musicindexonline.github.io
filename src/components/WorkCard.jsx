@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Card, CardContent, Typography, Box, Chip, IconButton, Collapse } from '@mui/material'
 import MovementList from './MovementList'
 
-function WorkCard({ work, onCopyText }) {
+function WorkCard({ work, onCopyText, clickCopyEnabled }) {
   const [expanded, setExpanded] = useState(false)
 
   const hasMovements = work.movements && work.movements.length > 0
@@ -55,14 +55,14 @@ function WorkCard({ work, onCopyText }) {
             <Typography
               variant="h6"
               component="span"
-              onClick={(e) => copyToClipboard(e, work.title)}
+              onClick={clickCopyEnabled ? (e) => copyToClipboard(e, work.title) : undefined}
               sx={{
                 display: 'inline-block',
                 fontWeight: 700,
                 fontFamily: '"Playfair Display", "EB Garamond", Georgia, serif',
-                cursor: 'pointer',
+                cursor: clickCopyEnabled ? 'pointer' : 'default',
                 transition: 'opacity 0.15s ease',
-                '&:hover': { opacity: 0.7 },
+                '&:hover': clickCopyEnabled ? { opacity: 0.7 } : {},
                 mb: 1,
               }}
             >
@@ -73,8 +73,8 @@ function WorkCard({ work, onCopyText }) {
                 label={work.composer}
                 size="small"
                 color="primary"
-                onClick={(e) => copyToClipboard(e, work.composer)}
-                sx={{ cursor: 'pointer' }}
+                onClick={clickCopyEnabled ? (e) => copyToClipboard(e, work.composer) : undefined}
+                sx={{ cursor: clickCopyEnabled ? 'pointer' : 'default' }}
               />
               {work.genre && (
                 <Chip
@@ -82,8 +82,8 @@ function WorkCard({ work, onCopyText }) {
                   size="small"
                   color="secondary"
                   variant="outlined"
-                  onClick={(e) => copyToClipboard(e, work.genre)}
-                  sx={{ cursor: 'pointer' }}
+                  onClick={clickCopyEnabled ? (e) => copyToClipboard(e, work.genre) : undefined}
+                  sx={{ cursor: clickCopyEnabled ? 'pointer' : 'default' }}
                 />
               )}
               {work.period && (
@@ -91,8 +91,8 @@ function WorkCard({ work, onCopyText }) {
                   label={work.period}
                   size="small"
                   variant="outlined"
-                  onClick={(e) => copyToClipboard(e, work.period)}
-                  sx={{ cursor: 'pointer' }}
+                  onClick={clickCopyEnabled ? (e) => copyToClipboard(e, work.period) : undefined}
+                  sx={{ cursor: clickCopyEnabled ? 'pointer' : 'default' }}
                 />
               )}
             </Box>
@@ -114,7 +114,7 @@ function WorkCard({ work, onCopyText }) {
       </CardContent>
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent sx={{ pt: 0 }}>
-          <MovementList movements={work.movements} onCopyText={onCopyText} />
+          <MovementList movements={work.movements} onCopyText={onCopyText} clickCopyEnabled={clickCopyEnabled} />
         </CardContent>
       </Collapse>
     </Card>

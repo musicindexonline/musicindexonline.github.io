@@ -48,7 +48,7 @@ function Layout({ children, searchTerm, onSearchChange }) {
   const animTimerRef = useRef(null)
 
   const showSearchInput = !!searchTerm || searchExpanded
-  const onSettings = location.pathname === '/settings'
+  const onSettings = location.pathname === '/settings' || location.pathname === '/readme'
 
   useEffect(() => {
     setBackButtonVisible(onSettings)

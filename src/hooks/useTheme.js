@@ -23,8 +23,18 @@ export default function useTheme() {
         return 1.0
     }
 
+    const getInitialClickCopyEnabled = () => {
+        try {
+            const saved = localStorage.getItem('siteClickCopyEnabled')
+            if (saved === 'true') return true
+            if (saved === 'false') return false
+        } catch (e) {}
+        return true
+    }
+
     const [mode, setMode] = useState(getInitialMode)
     const [fontSizeScale, setFontSizeScale] = useState(getInitialFontSizeScale)
+    const [clickCopyEnabled, setClickCopyEnabled] = useState(getInitialClickCopyEnabled)
 
     useEffect(() => {
         if (typeof document !== 'undefined') {
@@ -40,6 +50,12 @@ export default function useTheme() {
             localStorage.setItem('siteFontSizeScale', fontSizeScale)
         } catch (e) {}
     }, [fontSizeScale])
+
+    useEffect(() => {
+        try {
+            localStorage.setItem('siteClickCopyEnabled', clickCopyEnabled)
+        } catch (e) {}
+    }, [clickCopyEnabled])
 
     useEffect(() => {
         if (typeof window === 'undefined' || !window.matchMedia) return
@@ -85,5 +101,5 @@ export default function useTheme() {
         setFontSizeScale(scale)
     }, [])
 
-    return { mode, toggleMode, setMode: setThemeMode, fontSizeScale, setFontSizeScale: setFontSize }
+    return { mode, toggleMode, setMode: setThemeMode, fontSizeScale, setFontSizeScale: setFontSize, clickCopyEnabled, setClickCopyEnabled }
 }

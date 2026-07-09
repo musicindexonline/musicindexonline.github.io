@@ -12,7 +12,7 @@ function getComposerShort(composer) {
 
 const ITEMS_PER_PAGE = 20
 
-function App({ onToggleTheme, themeMode }) {
+function App({ onToggleTheme, themeMode, clickCopyEnabled }) {
   const { data, loading, error } = useMusicData()
   const [searchTerm, setSearchTerm] = useState('')
   const [filters, setFilters] = useState({ composer: '', genre: '', period: '' })
@@ -96,6 +96,7 @@ function App({ onToggleTheme, themeMode }) {
           onPageChange={setPage}
           itemsPerPage={ITEMS_PER_PAGE}
           onCopyText={showCopied}
+          clickCopyEnabled={clickCopyEnabled}
         />
       )}
 

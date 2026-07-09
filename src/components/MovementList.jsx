@@ -1,7 +1,7 @@
 import React from 'react'
 import { List, ListItem, ListItemText, Paper, Typography, Box } from '@mui/material'
 
-function MovementList({ movements, onCopyText }) {
+function MovementList({ movements, onCopyText, clickCopyEnabled }) {
   if (!movements || movements.length === 0) {
     return (
       <Typography variant="body2" color="text.secondary" sx={{ fontStyle: 'italic' }}>
@@ -35,13 +35,13 @@ function MovementList({ movements, onCopyText }) {
             }
           }
           return (
-            <ListItem key={index} divider={index < movements.length - 1} onClick={handleClick}>
+            <ListItem key={index} divider={index < movements.length - 1} onClick={clickCopyEnabled ? handleClick : undefined}>
               <ListItemText
                 primary={movement}
                 primaryTypographyProps={{
                   variant: 'body1',
                   fontFamily: '"EB Garamond", "Times New Roman", Georgia, serif',
-                  sx: { cursor: 'pointer', transition: 'opacity 0.15s ease', '&:hover': { opacity: 0.7 } },
+                  sx: { cursor: clickCopyEnabled ? 'pointer' : 'default', transition: 'opacity 0.15s ease', '&:hover': clickCopyEnabled ? { opacity: 0.7 } : {} },
                 }}
               />
             </ListItem>
