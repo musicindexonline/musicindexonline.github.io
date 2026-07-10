@@ -8,7 +8,7 @@ Music Index Online is a searchable, open-source catalog of classical music works
 
 Whether you're a performer checking a program, a listener discovering new repertoire, or a researcher cataloging works, Music Index Online makes it easy to find and copy the information you need.
 
-**Visit:** [https://sudo0015.github.io/MusicIndexOnline/](https://sudo0015.github.io/MusicIndexOnline/)
+**Visit:** [https://musicindexonline.github.io/](https://musicindexonline.github.io/)
 
 ## Features
 
@@ -22,7 +22,7 @@ Whether you're a performer checking a program, a listener discovering new repert
 ## Feedback
 
 Found a bug, have a suggestion, or want to request a feature?  
-Feel free to [open an issue](https://github.com/sudo0015/MusicIndexOnline/issues) — all feedback is welcome.
+Feel free to [open an issue](https://github.com/musicindexonline/musicindexonline.github.io/issues) — all feedback is welcome.
 
 ## License
 
@@ -37,5 +37,5 @@ This project is open source and available under the MIT License.
 
 
 <p align="center">
-  <sub>© 2026 BUG STUDIO</sub>
+  <sub>© 2026 Music Index Online</sub>
 </p>
