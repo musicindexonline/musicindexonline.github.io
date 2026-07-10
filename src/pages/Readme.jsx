@@ -33,6 +33,7 @@ const h3Sx = {
 const linkSx = {
   fontFamily: '"EB Garamond", Georgia, serif',
   fontWeight: 600,
+  wordBreak: 'break-all',
 }
 
 const tocItems = [
