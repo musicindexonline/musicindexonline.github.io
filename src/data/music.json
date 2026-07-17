@@ -540,7 +540,7 @@
     "composer": "Gustav Mahler",
     "title": "Das Lied von der Erde",
     "op": "GMW 49",
-    "genre": "Symphony",
+    "genre": "Art Song",
     "period": "Romantic",
     "movements": [
       "I. Das Trinklied vom Jammer der Erde",
@@ -549,6 +549,91 @@
       "IV. Von der Schönheit",
       "V. Der Trunkene im Frühling",
       "VI. Der Abschied"
+    ]
+  },
+  {
+    "composer": "Gustav Mahler",
+    "title": "Des Knaben Wunderhorn",
+    "op": "GMW ca. 21-38",
+    "genre": "Art Song",
+    "period": "Romantic",
+    "movements": [
+      "Revelge",
+      "Das irdische Leben",
+      "Verlor'ne Müh'",
+      "Rheinlegendchen",
+      "Der Tamboursg'sell",
+      "Der Schildwache Nachtlied",
+      "Wer hat dies Liedlein erdacht?",
+      "Lob des hohen Verstandes",
+      "Des Antonius von Padua Fischpredigt",
+      "Lied des Verfolgten im Turm",
+      "Trost im Unglück",
+      "Wo die schönen Trompeten blasen"
+    ]
+  },
+  {
+    "composer": "Gustav Mahler",
+    "title": "Lieder eines fahrenden Gesellen",
+    "op": "GMW 10",
+    "genre": "Art Song",
+    "period": "Romantic",
+    "movements": [
+      "I. Wenn mein Schatz Hochzeit macht",
+      "II. Ging heut' Morgen übers Feld",
+      "III. Ich hab' ein glühend Messer",
+      "IV. Die zwei blauen Augen von meinem Schatz"
+    ]
+  },
+  {
+    "composer": "Gustav Mahler",
+    "title": "Kindertotenlieder",
+    "op": "GMW 45",
+    "genre": "Art Song",
+    "period": "Romantic",
+    "movements": [
+      "I. Nun will die Sonn' so hell aufgeh'n",
+      "II. Nun seh' ich wohl, warum so dunkle Flammen",
+      "III. Wenn dein Mütterlein, tritt zur Tür herein",
+      "IV. Oft denk' ich, sie sind nur augesgangen",
+      "V. In diesem Wetter, in diesem Braus"
+    ]
+  },
+  {
+    "composer": "Gustav Mahler",
+    "title": "Rückert-Lieder",
+    "op": "GMW 39-43",
+    "genre": "Art Song",
+    "period": "Romantic",
+    "movements": [
+      "Ich atmet' einen linden Duft",
+      "Liebst du um Schönheit",
+      "Blicke mir nicht in die Lieder",
+      "Um Mitternacht",
+      "Ich bin der Welt abhanden gekommen"
+    ]
+  },
+  {
+    "composer": "Gustav Mahler",
+    "title": "Lieder und Gesänge aus der Jugendzeit",
+    "op": "GMW ca. 1-20",
+    "genre": "Art Song",
+    "period": "Romantic",
+    "movements": [
+      "Heft I: Frühlingsmorgen",
+      "Heft I: Erinnerung",
+      "Heft I: Hans und Grete",
+      "Heft I: Serenade aus 'Don Juan'",
+      "Heft I: Phantasie aus 'Don Juan'",
+      "Heft II: Um schlimme Kinder artig zu machen",
+      "Heft II: Ich ging mit Lust durch einen grünen Wald",
+      "Heft II: Aus! Aus!",
+      "Heft II: Starke Einbildungskraft",
+      "Heft III: Zu Strassburg auf der Schanz",
+      "Heft III: Ablösung im Sommer",
+      "Heft III: Scheiden und Meiden",
+      "Heft III: Nicht Wiedersehen!",
+      "Heft III: Selbstgefühl"
     ]
   },
   {
@@ -1255,7 +1340,7 @@
     "genre": "Symphony",
     "period": "Romantic",
     "movements": [
-      "I. Andante ma non troppo -  Allegro energico",
+      "I. Andante ma non troppo - Allegro energico",
       "II. Andante",
       "III. Scherzo. Allegro",
       "IV. Finale. Quasi una fantasia"
@@ -2337,7 +2422,7 @@
   {
     "composer": "Wolfgang Amadeus Mozart",
     "title": "Rondo for Violin and Orchestra in C Major, K. 373",
-    "op": "K. 364",
+    "op": "K. 373",
     "genre": "Rondo",
     "period": "Classical",
     "movements": []
