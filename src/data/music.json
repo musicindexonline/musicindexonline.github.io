@@ -307,8 +307,8 @@
   },
   {
     "composer": "Johann Sebastian Bach",
-    "title": "Concerto for Violin and Oboe in C Minor, BWV 1060",
-    "op": "BWV 1060",
+    "title": "Concerto for Violin and Oboe in C Minor, BWV 1060R",
+    "op": "BWV 1060R",
     "genre": "Concerto",
     "period": "Baroque",
     "movements": [
@@ -388,6 +388,211 @@
       "I. Allegro",
       "II. Adagio ma non tanto",
       "III. Allegro"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Keyboard Concerto No. 1 in D Minor, BWV 1052",
+    "op": "BWV 1052",
+    "genre": "Concerto",
+    "period": "Baroque",
+    "movements": [
+      "I. Allegro",
+      "II. Adagio",
+      "III. Allegro"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Keyboard Concerto No. 2 in E Major, BWV 1053",
+    "op": "BWV 1053",
+    "genre": "Concerto",
+    "period": "Baroque",
+    "movements": [
+      "I. Allegro",
+      "II. Siciliano",
+      "III. Allegro"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Concerto for 4 Keyboards in A Minor, BWV 1065",
+    "op": "BWV 1065",
+    "genre": "Concerto",
+    "period": "Baroque",
+    "movements": [
+      "I. Allegro",
+      "II. Largo",
+      "III. Allegro"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Concerto for 3 Keyboards in D Minor, BWV 1063",
+    "op": "BWV 1063",
+    "genre": "Concerto",
+    "period": "Baroque",
+    "movements": [
+      "I. Allegro",
+      "II. Alla siciliana",
+      "III. Allegro"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Concerto for 3 Keyboards in C Major, BWV 1064",
+    "op": "BWV 1064",
+    "genre": "Concerto",
+    "period": "Baroque",
+    "movements": [
+      "I. Allegro",
+      "II. Adagio",
+      "III. Allegro"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Keyboard Concerto No. 7 in G Minor, BWV 1058",
+    "op": "BWV 1058",
+    "genre": "Concerto",
+    "period": "Baroque",
+    "movements": [
+      "I. Allegro",
+      "II. Andante",
+      "III. Allegro assai"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Keyboard Concerto No. 3 in D Major, BWV 1054",
+    "op": "BWV 1054",
+    "genre": "Concerto",
+    "period": "Baroque",
+    "movements": [
+      "I. Allegro",
+      "II. Adagio e piano sempre",
+      "III. Allegro"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Keyboard Concerto No. 4 in A Major, BWV 1055",
+    "op": "BWV 1055",
+    "genre": "Concerto",
+    "period": "Baroque",
+    "movements": [
+      "I. Allegro",
+      "II. Larghetto",
+      "III. Allegro ma non troppo"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Keyboard Concerto No. 5 in F Minor, BWV 1056",
+    "op": "BWV 1056",
+    "genre": "Concerto",
+    "period": "Baroque",
+    "movements": [
+      "I. Allegro moderato",
+      "II. Largo",
+      "III. Presto"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Concerto for 2 Keyboards in C Major, BWV 1061",
+    "op": "BWV 1061",
+    "genre": "Concerto",
+    "period": "Baroque",
+    "movements": [
+      "I. Allegro",
+      "II. Adagio",
+      "III. Allegro"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Concerto for 2 Keyboards in C Minor, BWV 1060",
+    "op": "BWV 1060",
+    "genre": "Concerto",
+    "period": "Baroque",
+    "movements": [
+      "I. Allegro",
+      "II. Andante",
+      "III. Allegro assai"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Concerto for 2 Keyboards in C Minor, BWV 1062",
+    "op": "BWV 1062",
+    "genre": "Concerto",
+    "period": "Baroque",
+    "movements": [
+      "I. Vivace",
+      "II. Largo ma non tanto",
+      "III. Allegro assai"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Concerto for 2 Violins in C Minor, BWV 1060R",
+    "op": "BWV 1060R",
+    "genre": "Concerto",
+    "period": "Baroque",
+    "movements": [
+      "I. Allegro",
+      "II. Adagio",
+      "III. Allegro"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Triple Concerto for Flute, Violin and Harpsichord, BWV 1044",
+    "op": "BWV 1044",
+    "genre": "Concerto",
+    "period": "Baroque",
+    "movements": [
+      "I. Allegro",
+      "II. Adagio ma non tanto e dolce",
+      "III. Alla breve"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Keyboard Concerto No. 6 in F Major, BWV 1057",
+    "op": "BWV 1057",
+    "genre": "Concerto",
+    "period": "Baroque",
+    "movements": [
+      "I. Allegro",
+      "II. Andante",
+      "III. Allegro assai"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "The Musical Offering, BWV 1079",
+    "op": "BWV 1079",
+    "genre": "Contrapuntal Cycle",
+    "period": "Baroque",
+    "movements": [
+      "Ricercar a 3",
+      "Ricercar a 6",
+      "Canon perpetuus super Thema Regium",
+      "Canon a 2 cancrizans",
+      "Canon a 2 violini in Unisono",
+      "Canon a 2 per Motum contrarium",
+      "Canon a 2 per Augmentationem, contrario Motu",
+      "Canon a 2 per tonos",
+      "Fuga canonica in Epidiapente",
+      "Canon a 2 'Quaerendo invenietis'",
+      "Canon a 4",
+      "Sonata sopr' il Soggetto Reale a Traversa, Violino e Continuo: I. Largo",
+      "Sonata sopr' il Soggetto Reale a Traversa, Violino e Continuo: II. Allegro",
+      "Sonata sopr' il Soggetto Reale a Traversa, Violino e Continuo: III. Andante",
+      "Sonata sopr' il Soggetto Reale a Traversa, Violino e Continuo: IV. Allegro",
+      "Canon perpetuus"
     ]
   },
   {
