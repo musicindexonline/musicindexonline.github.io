@@ -519,7 +519,7 @@
     "movements": [
       "I. Allegro",
       "II. Andante",
-      "III. Allegro assai"
+      "III. Allegro"
     ]
   },
   {
@@ -593,6 +593,104 @@
       "Sonata sopr' il Soggetto Reale a Traversa, Violino e Continuo: III. Andante",
       "Sonata sopr' il Soggetto Reale a Traversa, Violino e Continuo: IV. Allegro",
       "Canon perpetuus"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Oboe Concerto in D Minor, BWV1059R",
+    "op": "BWV 1059R",
+    "genre": "Concerto",
+    "period": "Baroque",
+    "movements": [
+      "I. Allegro",
+      "II. Siciliano",
+      "III. Presto"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Concerto for 3 Violins in D Major, BWV 1064R",
+    "op": "BWV 1064R",
+    "genre": "Concerto",
+    "period": "Baroque",
+    "movements": [
+      "I. Allegro",
+      "II. Adagio",
+      "III. Allegro"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Orchestral Suite No. 1 in C Major, BWV 1066",
+    "op": "BWV 1066",
+    "genre": "Orchestral Suite",
+    "period": "Baroque",
+    "movements": [
+      "I. Ouverture",
+      "II. Courante",
+      "III. Gavottes I & II",
+      "IV. Forlane",
+      "V. Menuets I & II",
+      "VI. Bourrées I & II",
+      "VII. Passepieds I & II"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Orchestral Suite No. 2 in B Minor, BWV 1067",
+    "op": "BWV 1067",
+    "genre": "Orchestral Suite",
+    "period": "Baroque",
+    "movements": [
+      "I. Ouverture",
+      "II. Rondeau",
+      "III. Sarabande",
+      "IV. Bourrées I & II",
+      "V. Polonaise",
+      "VI. Menuet",
+      "VII. Badinerie"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Orchestral Suite No. 3 in D Major, BWV 1068",
+    "op": "BWV 1068",
+    "genre": "Orchestral Suite",
+    "period": "Baroque",
+    "movements": [
+      "I. Ouverture",
+      "II. Air",
+      "III. Gavottes I & II",
+      "IV. Bourrée",
+      "V. Gigue"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Orchestral Suite No. 4 in D Major, BWV 1069",
+    "op": "BWV 1069",
+    "genre": "Orchestral Suite",
+    "period": "Baroque",
+    "movements": [
+      "I. Ouverture",
+      "II. Bourrées I & II",
+      "III. Gavotte",
+      "IV. Menuets I & II",
+      "V. Réjouissance"
+    ]
+  },
+  {
+    "composer": "Wilhelm Friedemann Bach",
+    "title": "Orchestral Suite No. 5 in G Minor, BWV 1070",
+    "op": "BWV 1070",
+    "genre": "Orchestral Suite",
+    "period": "Baroque",
+    "movements": [
+      "I. Ouverture - Larghetto",
+      "II. Torneo",
+      "III. Aria",
+      "IV. Menuetto alternativo - Trio",
+      "V. Capriccio"
     ]
   },
   {
