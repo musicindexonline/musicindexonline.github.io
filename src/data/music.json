@@ -210,7 +210,7 @@
   },
   {
     "composer": "Johann Sebastian Bach",
-    "title": "Ich geh und suche mit Verlangen, BWV 49",
+    "title": "Ich geh' und suche mit Verlangen, BWV 49",
     "op": "BWV 49",
     "genre": "Cantata",
     "period": "Baroque",
@@ -275,8 +275,14 @@
       "IV. Recitativo. Gott stürzet und erhöhet",
       "V. Aria. Ich nehme mein Kreuz",
       "VI. Recitativo. Und weil von Gottes Gnade",
-      "VII. Aria. Komm, mein Herre, mich zu stärken",
-      "VIII. Chorale. Was Gott tut, das ist wohlgetan"
+      "VII. Chorale. Was Gott tut, das ist wohlgetan",
+      "VIII. Sinfonia",
+      "IX. Recitativo. Nur eines kränkt ein christliches Gemüte",
+      "X. Aria. Jesus macht mich geistlich reich",
+      "XI. Recitativo. Wer nur in Jesu bleibt",
+      "XII. Aria. Mein Herze glaubt und liebt",
+      "XIII. Recitativo. O Armut, der kein Reichtum gleicht",
+      "XIV. Chorale. Was Gott tut, das ist wohlgetan"
     ]
   },
   {
@@ -379,7 +385,7 @@
   },
   {
     "composer": "Johann Sebastian Bach",
-    "title": "Ich bin vergnügt mit meinem Glücke, BWV 209",
+    "title": "Non sa che sia dolore, BWV 209",
     "op": "BWV 209",
     "genre": "Cantata",
     "period": "Baroque",
@@ -395,14 +401,11 @@
   },
   {
     "composer": "Johann Sebastian Bach",
-    "title": "Toccata and Fugue in C Major, BWV 721",
+    "title": "Erbarm dich mein, o Herre Gott, BWV 721",
     "op": "BWV 721",
     "genre": "Organ",
     "period": "Baroque",
-    "movements": [
-      "I. Toccata",
-      "II. Fugue"
-    ]
+    "movements": []
   },
   {
     "composer": "Johann Sebastian Bach",
