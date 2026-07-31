@@ -239,16 +239,12 @@
     ]
   },
   {
-    "composer": "Johann Sebastian Bach",
+    "composer": "Georg Melchior Hoffmann",
     "title": "Schlage doch, gewünschte Stunde, BWV 53",
     "op": "BWV 53",
     "genre": "Cantata",
     "period": "Baroque",
-    "movements": [
-      "I. Aria. Schlage doch, gewünschte Stunde",
-      "II. Recitativo. Ach, nunmehr",
-      "III. Aria. Mein Jesus, komm und nimm"
-    ]
+    "movements": []
   },
   {
     "composer": "Johann Sebastian Bach",
@@ -354,17 +350,18 @@
   },
   {
     "composer": "Johann Sebastian Bach",
-    "title": "Ich armer Mensch, ich Sündenknecht, BWV 169",
+    "title": "Gott soll allein mein Herze haben, BWV 169",
     "op": "BWV 169",
     "genre": "Cantata",
     "period": "Baroque",
     "movements": [
       "I. Sinfonia",
-      "II. Recitativo. Ich armer Mensch",
-      "III. Aria. Stirb in mir, Welt und alle deine Liebe",
-      "IV. Recitativo. Nimm mich zu dir",
-      "V. Aria. Nun nehm ich mein Vergnügen",
-      "VI. Chorale. Herr, wie du willst, so schicks mit mir"
+      "II. Arioso. Gott soll allein mein Herze haben",
+      "III. Aria. Gott soll allein mein Herze haben",
+      "IV. Recitativo. Was ist die Liebe Gottes",
+      "V. Aria. Stirb in mir",
+      "VI. Recitativo. Doch meint es auch dabei",
+      "VII. Chorale. Du süße Liebe, schenk uns deine Gunst"
     ]
   },
   {
@@ -603,6 +600,18 @@
       "I. Toccata",
       "II. Adagio",
       "III. Fuga"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Flute Sonata in E-Flat Major, BWV 1031",
+    "op": "BWV 1031",
+    "genre": "Concerto",
+    "period": "Baroque",
+    "movements": [
+      "I. Allegro moderato",
+      "II. Siciliano",
+      "III. Allegro"
     ]
   },
   {
