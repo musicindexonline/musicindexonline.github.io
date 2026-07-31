@@ -145,6 +145,267 @@
   },
   {
     "composer": "Johann Sebastian Bach",
+    "title": "Wachet auf, ruft uns die Stimme, BWV 140",
+    "op": "BWV 140",
+    "genre": "Cantata",
+    "period": "Baroque",
+    "movements": [
+      "I. Coro. Wachet auf, ruft uns die Stimme",
+      "II. Recitativo. Er kommt, er kommt, der Bräut'gam kommt!",
+      "III. Duetto. Wann kommst du, mein Heil? / Ich komme, dein Teil",
+      "IV. Chorale. Zion hört die Wächter singen",
+      "V. Recitativo. So geh' herein zu mir, du mir erwählte Braut!",
+      "VI. Duetto. Mein Freund ist mein! / Und ich bin dein!",
+      "VII. Chorale. Gloria sei dir gesungen"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Bleib bei uns, denn es will Abend werden, BWV 6",
+    "op": "BWV 6",
+    "genre": "Cantata",
+    "period": "Baroque",
+    "movements": [
+      "I. Coro. Bleib bei uns, denn es will Abend werden",
+      "II. Aria. Hochgelobter Gottessohn",
+      "III. Chorale. Ach bleib bei uns, Herr Jesu Christ",
+      "IV. Recitativo. Es hat die Dunkelheit",
+      "V. Aria. Jesu, lass uns auf dich sehen",
+      "VI. Chorale. Beweis dein Macht, Herr Jesu Christ"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Wir danken dir, Gott, wir danken dir, BWV 29",
+    "op": "BWV 29",
+    "genre": "Cantata",
+    "period": "Baroque",
+    "movements": [
+      "I. Sinfonia",
+      "II. Coro. Wir danken dir, Gott, wir danken dir",
+      "III. Aria. Halleluja, Stärk und Macht",
+      "IV. Recitativo. Gott Lob und Dank, der Tag",
+      "V. Aria. Gedenk an uns mit deiner Liebe",
+      "VI. Recitativo. Vergiss es ferner nicht",
+      "VII. Aria. Halleluja, Stärk und Macht",
+      "VIII. Chorale. Sei Lob und Preis mit Ehren"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Geist und Seele wird verwirret, BWV 35",
+    "op": "BWV 35",
+    "genre": "Cantata",
+    "period": "Baroque",
+    "movements": [
+      "I. Sinfonia",
+      "II. Aria. Geist und Seele wird verwirret",
+      "III. Recitativo. Ich wundre mich",
+      "IV. Aria. Gott hat alles wohlgemacht",
+      "V. Sinfonia",
+      "VI. Recitativo. Ach, stärke mich",
+      "VII. Aria. Ich wünsche nur, dass Gott",
+      "VIII. Chorale. Freu dich sehr, o meine Seele"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Ich geh und suche mit Verlangen, BWV 49",
+    "op": "BWV 49",
+    "genre": "Cantata",
+    "period": "Baroque",
+    "movements": [
+      "I. Sinfonia",
+      "II. Aria. Ich geh und suche mit Verlangen",
+      "III. Recitativo. Mein Mahl ist zubereit't",
+      "IV. Aria. Ich bin herrlich, ich bin schön",
+      "V. Recitativo. Mein Glaube hat mich selbst so angezogen",
+      "VI. Aria. Dich hab ich je und je geliebet",
+      "VII. Chorale. Wie? O Herr, wie ist's so wohl getan"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Jauchzet Gott in allen Landen, BWV 51",
+    "op": "BWV 51",
+    "genre": "Cantata",
+    "period": "Baroque",
+    "movements": [
+      "I. Aria. Jauchzet Gott in allen Landen",
+      "II. Recitativo. Wir beten zu dem Tempel an",
+      "III. Aria. Höchster, mache deine Güte",
+      "IV. Chorale. Sei Lob und Preis mit Ehren",
+      "V. Aria. Alleluja"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Schlage doch, gewünschte Stunde, BWV 53",
+    "op": "BWV 53",
+    "genre": "Cantata",
+    "period": "Baroque",
+    "movements": [
+      "I. Aria. Schlage doch, gewünschte Stunde",
+      "II. Recitativo. Ach, nunmehr",
+      "III. Aria. Mein Jesus, komm und nimm"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Widerstehe doch der Sünde, BWV 54",
+    "op": "BWV 54",
+    "genre": "Cantata",
+    "period": "Baroque",
+    "movements": [
+      "I. Aria. Widerstehe doch der Sünde",
+      "II. Recitativo. Die Art verruchter Sünden",
+      "III. Aria. Wer Sünde tut, der ist vom Teufel"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Die Elenden sollen essen, BWV 75",
+    "op": "BWV 75",
+    "genre": "Cantata",
+    "period": "Baroque",
+    "movements": [
+      "I. Coro. Die Elenden sollen essen",
+      "II. Recitativo. Was hilft des Purpurs Majestät",
+      "III. Aria. Mein Jesus soll mein alles sein",
+      "IV. Recitativo. Gott stürzet und erhöhet",
+      "V. Aria. Ich nehme mein Kreuz",
+      "VI. Recitativo. Und weil von Gottes Gnade",
+      "VII. Aria. Komm, mein Herre, mich zu stärken",
+      "VIII. Chorale. Was Gott tut, das ist wohlgetan"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Jesu, der du meine Seele, BWV 78",
+    "op": "BWV 78",
+    "genre": "Cantata",
+    "period": "Baroque",
+    "movements": [
+      "I. Coro. Jesu, der du meine Seele",
+      "II. Aria. Wir eilen mit schwachen, doch emsigen Schritten",
+      "III. Recitativo. Ach, ich bin ein Kind der Sünden",
+      "IV. Aria. Dein Blut, so meine Schuld durchstreicht",
+      "V. Recitativo. Die Wunden, Nägel, Kron und Grab",
+      "VI. Aria. Nun, du wirst mein Gewissen stillen",
+      "VII. Chorale. Herr, ich glaube, hilf mir Schwachen"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Wir müssen durch viel Trübsal, BWV 146",
+    "op": "BWV 146",
+    "genre": "Cantata",
+    "period": "Baroque",
+    "movements": [
+      "I. Sinfonia",
+      "II. Coro. Wir müssen durch viel Trübsal",
+      "III. Aria. Ich will auf den Herren schaun",
+      "IV. Recitativo. Ach, denk nicht, weil ich leide",
+      "V. Aria. Ich säe meine Zähren",
+      "VI. Recitativo. Drum hab ich mich ihm ganz ergeben",
+      "VII. Aria. Ich will dich, mein Jesu, nicht lassen",
+      "VIII. Chorale. Werde munter, mein Gemüte"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Herz und Mund und Tat und Leben, BWV 147",
+    "op": "BWV 147",
+    "genre": "Cantata",
+    "period": "Baroque",
+    "movements": [
+      "I. Coro. Herz und Mund und Tat und Leben",
+      "II. Recitativo. Gebenedeiter Mund",
+      "III. Aria. Schäme dich, o Seele, nicht",
+      "IV. Recitativo. Verstockung kann Gewaltige verblenden",
+      "V. Aria. Bereite dir, Jesu, noch itzo die Bahn",
+      "VI. Chorale. Wohl mir, dass ich Jesum habe",
+      "VII. Aria. Hilf, Jesu, hilf, dass ich auch dich bekenne",
+      "VIII. Recitativo. Der höchsten Allmacht Wunderhand",
+      "IX. Aria. Ich will von Jesu Wundern singen",
+      "X. Chorale. Jesu, bleibet meine Freude"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Ihr Menschen, rühmet Gottes Liebe, BWV 167",
+    "op": "BWV 167",
+    "genre": "Cantata",
+    "period": "Baroque",
+    "movements": [
+      "I. Coro. Ihr Menschen, rühmet Gottes Liebe",
+      "II. Recitativo. Gelobet sei der Herr",
+      "III. Aria. Gott soll allein mein Herze haben",
+      "IV. Recitativo. Was ist die Liebe Gottes",
+      "V. Aria. Halt im Gedächtnis Jesum Christ",
+      "VI. Chorale. Sei Lob und Preis mit Ehren"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Ich armer Mensch, ich Sündenknecht, BWV 169",
+    "op": "BWV 169",
+    "genre": "Cantata",
+    "period": "Baroque",
+    "movements": [
+      "I. Sinfonia",
+      "II. Recitativo. Ich armer Mensch",
+      "III. Aria. Stirb in mir, Welt und alle deine Liebe",
+      "IV. Recitativo. Nimm mich zu dir",
+      "V. Aria. Nun nehm ich mein Vergnügen",
+      "VI. Chorale. Herr, wie du willst, so schicks mit mir"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Ich habe meine Zuversicht, BWV 188",
+    "op": "BWV 188",
+    "genre": "Cantata",
+    "period": "Baroque",
+    "movements": [
+      "I. Sinfonia",
+      "II. Aria. Ich habe meine Zuversicht",
+      "III. Recitativo. Gott meint es gut",
+      "IV. Aria. Unerforschlich, unbegreiflich",
+      "V. Recitativo. Die Hoffnung wartet der geduldigen Seelen",
+      "VI. Aria. Auf meinen Gott",
+      "VII. Chorale. Auf meinen lieben Gott"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Ich bin vergnügt mit meinem Glücke, BWV 209",
+    "op": "BWV 209",
+    "genre": "Cantata",
+    "period": "Baroque",
+    "movements": [
+      "I. Sinfonia",
+      "II. Recitativo. Ich bin vergnügt",
+      "III. Aria. Ruhig und in sich zufrieden",
+      "IV. Recitativo. Wie pochen Schmerz und Missvergnügen",
+      "V. Aria. Wollt ihr, dass ich euch gehöre?",
+      "VI. Recitativo. Wohl, denn, es ist mein letztes Wort",
+      "VII. Aria. Ich will dich, Seele, nicht verlassen"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Toccata and Fugue in C Major, BWV 721",
+    "op": "BWV 721",
+    "genre": "Organ",
+    "period": "Baroque",
+    "movements": [
+      "I. Toccata",
+      "II. Fugue"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
     "title": "Aria mit 30 Veränderungen, BWV 988 'Goldberg Variations'",
     "op": "BWV 988",
     "genre": "Keyboard",
@@ -194,7 +455,7 @@
       "I. Preludio",
       "II. Loure",
       "III. Gavotte en Rondeau",
-      "IV. Menuet I - Menuet II",
+      "IV. Menuets I & II",
       "V. Bourrée",
       "VI. Gigue"
     ]
@@ -315,6 +576,30 @@
       "I. Allegro",
       "II. Adagio",
       "III. Allegro"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Concerto for Trumpet and Violin in D Minor, BWV 1060R",
+    "op": "BWV 1060R",
+    "genre": "Concerto",
+    "period": "Baroque",
+    "movements": [
+      "I. Allegro",
+      "II. Adagio",
+      "III. Allegro"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Toccata, Adagio and Fugue in C Major, BWV 564",
+    "op": "BWV 564",
+    "genre": "Organ",
+    "period": "Baroque",
+    "movements": [
+      "I. Toccata",
+      "II. Adagio",
+      "III. Fuga"
     ]
   },
   {
@@ -604,6 +889,18 @@
     "movements": [
       "I. Allegro",
       "II. Siciliano",
+      "III. Presto"
+    ]
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Flute Concerto in E Minor, BWV 1059R",
+    "op": "BWV 1059R",
+    "genre": "Concerto",
+    "period": "Baroque",
+    "movements": [
+      "I. Allegro",
+      "II. Alla siciliana - Adagio",
       "III. Presto"
     ]
   },
