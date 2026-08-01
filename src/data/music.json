@@ -1,6 +1,32 @@
 [
   {
     "composer": "Antonio Vivaldi",
+    "title": "Il Giustino, RV 717",
+    "op": "RV 717",
+    "genre": "Opera",
+    "period": "Baroque",
+    "movements": [
+      "Sinfonia",
+      "Atto primo",
+      "Atto secondo",
+      "Atto terzo"
+    ]
+  },
+  {
+    "composer": "Antonio Vivaldi",
+    "title": "L'Olimpiade, RV 725",
+    "op": "RV 725",
+    "genre": "Concerto",
+    "period": "Baroque",
+    "movements": [
+      "Sinfonia",
+      "Atto primo",
+      "Atto secondo",
+      "Atto terzo"
+    ]
+  },
+  {
+    "composer": "Antonio Vivaldi",
     "title": "Violin Concerto No. 1 in E Major, RV 269 'La primavera'",
     "op": "RV 269",
     "genre": "Concerto",
@@ -2343,6 +2369,30 @@
   },
   {
     "composer": "Wolfgang Amadeus Mozart",
+    "title": "Piano Concerto No. 20 in D Minor, K. 466",
+    "op": "K. 466",
+    "genre": "Concerto",
+    "period": "Classical",
+    "movements": [
+      "I. Allegro",
+      "II. Romance",
+      "III. Rondo. Allegro assai"
+    ]
+  },
+  {
+    "composer": "Wolfgang Amadeus Mozart",
+    "title": "Piano Concerto No. 27 in B-Flat Major, K. 595",
+    "op": "K. 595",
+    "genre": "Concerto",
+    "period": "Classical",
+    "movements": [
+      "I. Allegro",
+      "II. Larghetto",
+      "III. Allegro"
+    ]
+  },
+  {
+    "composer": "Wolfgang Amadeus Mozart",
     "title": "Symphony No. 1 in E-Flat Major, K. 16",
     "op": "K. 16",
     "genre": "Symphony",
@@ -3208,6 +3258,34 @@
       "IV. Part II: The Dirge. Largo",
       "V. Part II: The Masque. Molto vivace",
       "VI. Part II: The Epilogue. L'istesso tempo"
+    ]
+  },
+  {
+    "composer": "Claude Debussy",
+    "title": "La mer, CD 111",
+    "op": "CD 111",
+    "genre": "Orchestral",
+    "period": "Romantic",
+    "movements": [
+      "I. De l'aube à midi sur la mer",
+      "II. Jeux de vagues",
+      "III. Dialogue du vent et de la mer"
+    ]
+  },
+  {
+    "composer": "Alban Berg",
+    "title": "Sieben frühe Lieder",
+    "op": "",
+    "genre": "Art Song",
+    "period": "Modernist",
+    "movements": [
+      "I. Nacht",
+      "II. Schilflied",
+      "III. Die Nachtigall",
+      "IV. Traumgekront",
+      "V. Im Zimmer",
+      "VI. Liebesode",
+      "VII. Sommertage"
     ]
   }
 ]
