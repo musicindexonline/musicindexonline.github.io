@@ -16,7 +16,7 @@
     "composer": "Antonio Vivaldi",
     "title": "L'Olimpiade, RV 725",
     "op": "RV 725",
-    "genre": "Concerto",
+    "genre": "Opera",
     "period": "Baroque",
     "movements": [
       "Sinfonia",
@@ -414,12 +414,10 @@
     "period": "Baroque",
     "movements": [
       "I. Sinfonia",
-      "II. Recitativo. Ich bin vergnügt",
-      "III. Aria. Ruhig und in sich zufrieden",
-      "IV. Recitativo. Wie pochen Schmerz und Missvergnügen",
-      "V. Aria. Wollt ihr, dass ich euch gehöre?",
-      "VI. Recitativo. Wohl, denn, es ist mein letztes Wort",
-      "VII. Aria. Ich will dich, Seele, nicht verlassen"
+      "II. Recitativo. Non sa che sia dolore",
+      "III. Aria. Parti pur e con dolore",
+      "IV. Recitativo. Tuo saver al tempo e l'età contrasta",
+      "V. Aria. Ricetti gramezza e pavento"
     ]
   },
   {
@@ -632,7 +630,7 @@
     "composer": "Johann Sebastian Bach",
     "title": "Flute Sonata in E-Flat Major, BWV 1031",
     "op": "BWV 1031",
-    "genre": "Concerto",
+    "genre": "Sonata",
     "period": "Baroque",
     "movements": [
       "I. Allegro moderato",
@@ -920,7 +918,7 @@
   },
   {
     "composer": "Johann Sebastian Bach",
-    "title": "Oboe Concerto in D Minor, BWV1059R",
+    "title": "Oboe Concerto in D Minor, BWV 1059R",
     "op": "BWV 1059R",
     "genre": "Concerto",
     "period": "Baroque",
@@ -2365,6 +2363,402 @@
       "I. Allegro",
       "II. Andante",
       "III. Finale. Presto"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 17 in F Major, Hob. I:17",
+    "op": "Hob. I:17",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Allegro",
+      "II. Andante ma non troppo",
+      "III. Finale. Allegro molto"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 18 in G Major, Hob. I:18",
+    "op": "Hob. I:18",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Andante moderato",
+      "II. Allegro molto",
+      "III. Tempo di menuetto"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 19 in D Major, Hob. I:19",
+    "op": "Hob. I:19",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Allegro molto",
+      "II. Andante",
+      "III. Presto"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 20 in C Major, Hob. I:20",
+    "op": "Hob. I:20",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Allegro molto",
+      "II. Andante cantabile",
+      "III. Menuetto - Trio",
+      "IV. Presto"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 21 in A Major, Hob. I:21",
+    "op": "Hob. I:21",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Adagio",
+      "II. Presto",
+      "III. Menuetto - Trio",
+      "IV. Finale. Allegro molto"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 22 in E-Flat Major, Hob. I:22 'The Philosopher'",
+    "op": "Hob. I:22",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Adagio",
+      "II. Presto",
+      "III. Menuetto - Trio",
+      "IV. Finale. Presto"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 23 in G Major, Hob. I:23",
+    "op": "Hob. I:23",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Allegro",
+      "II. Andante",
+      "III. Menuetto - Trio",
+      "IV. Finale. Presto assai"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 24 in D Major, Hob. I:24",
+    "op": "Hob. I:24",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Allegro",
+      "II. Adagio",
+      "III. Menuetto - Trio",
+      "IV. Finale. Allegro"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 25 in C Major, Hob. I:25",
+    "op": "Hob. I:25",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Adagio - Allegro",
+      "II. Menuetto - Trio",
+      "III. Finale. Presto"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 26 in D Minor, Hob. I:26 'Lamentatione'",
+    "op": "Hob. I:26",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Allegro assai con spirito",
+      "II. Adagio",
+      "III. Menuetto"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 27 in G Major, Hob. I:27",
+    "op": "Hob. I:27",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Allegro molto",
+      "II. Andante. Siciliano",
+      "III. Finale. Presto"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 28 in A Major, Hob. I:28",
+    "op": "Hob. I:28",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Allegro di molto",
+      "II. Poco adagio",
+      "III. Minuet & Trio. Allegro molto",
+      "IV. Finale. Presto assai"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 29 in E Major, Hob. I:29",
+    "op": "Hob. I:29",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Allegro di molto",
+      "II. Andante",
+      "III. Minuet & Trio. Allegretto",
+      "IV. Finale. Presto"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 30 in C Major, Hob. I:30 'Alleluja'",
+    "op": "Hob. I:30",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Allegro",
+      "II. Andante",
+      "III. Finale. Tempo di menuetto"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 31 in D Major, Hob. I:31 'Hornsignal'",
+    "op": "Hob. I:31",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Allegro",
+      "II. Adagio",
+      "III. Menuetto - Trio",
+      "IV. Finale. Moderato molto"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 32 in C Major, Hob. I:32",
+    "op": "Hob. I:32",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Allegro molto",
+      "II. Menuetto - Trio",
+      "III. Adagio ma non troppo",
+      "IV. Finale. Presto"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 33 in C Major, Hob. I:33",
+    "op": "Hob. I:33",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Vivace",
+      "II. Andante",
+      "III. Menuetto - Trio",
+      "IV. Finale. Allegro"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 34 in D Minor, Hob. I:34",
+    "op": "Hob. I:34",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Adagio",
+      "II. Allegro",
+      "III. Menuetto",
+      "IV. Finale"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 35 in B-Flat Major, Hob. I:35",
+    "op": "Hob. I:35",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Allegro di molto",
+      "II. Andante",
+      "III. Menuet. Un poco allegretto",
+      "IV. Finale. Presto"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 36 in E-Flat Major, Hob. I:36",
+    "op": "Hob. I:36",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Vivace",
+      "II. Adagio",
+      "III. Menuetto - Trio",
+      "IV. Finale. Allegro"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 37 in C Major, Hob. I:37",
+    "op": "Hob. I:37",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Presto",
+      "II. Menuetto - Trio",
+      "III. Andante",
+      "IV. Finale. Presto"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 38 in C Major, Hob. I:38 'Echo'",
+    "op": "Hob. I:38",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Allegro di molto",
+      "II. Andante molto",
+      "III. Minuet & Trio. Allegro",
+      "IV. Finale. Allegro di molto"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 39 in G Minor, Hob. I:39 'Tempesta di mare'",
+    "op": "Hob. I:39",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Allegro assai",
+      "II. Andante",
+      "III. Menuetto",
+      "IV. Finale. Allegro molto"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 40 in F Major, Hob. I:40",
+    "op": "Hob. I:40",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Allegro",
+      "II. Andante più tosto allegretto",
+      "III. Menuetto - Trio",
+      "IV. Finale. Fuga"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 41 in C Major, Hob. I:41",
+    "op": "Hob. I:41",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Allegro con spirito",
+      "II. Un poco andante",
+      "III. Menuetto",
+      "IV. Finale. Presto"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 42 in D Major, Hob. I:42",
+    "op": "Hob. I:42",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Moderato e maestoso",
+      "II. Andantino e cantabile",
+      "III. Menuetto. Allegretto",
+      "IV. Scherzando e presto"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 43 in E-Flat Major, Hob. I:43 'Mercury'",
+    "op": "Hob. I:43",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Allegro",
+      "II. Adagio",
+      "III. Menuetto - Trio",
+      "IV. Finale. Allegro"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 44 in E Minor, Hob. I:44 'Trauersinfonie'",
+    "op": "Hob. I:44",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Allegro con brio",
+      "II. Menuetto. Allegretto",
+      "III. Adagio",
+      "IV. Finale. Presto"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 45 in F-Sharp Minor, Hob. I:45 'Farewell'",
+    "op": "Hob. I:45",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Allegro assai",
+      "II. Adagio",
+      "III. Menuetto. Allegretto",
+      "IV. Finale. Presto - Adagio"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 46 in B Major, Hob. I:46",
+    "op": "Hob. I:46",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Vivace",
+      "II. Poco adagio",
+      "III. Menuetto. Allegretto",
+      "IV. Finale. Presto e scherzando"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 47 in G Major, Hob. I:47 'The Palindrome'",
+    "op": "Hob. I:47",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Allegro",
+      "II. Un poco adagio, cantabile",
+      "III. Menuetto al roverso",
+      "IV. Finale. Presto assai"
     ]
   },
   {
