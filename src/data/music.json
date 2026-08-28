@@ -3388,6 +3388,135 @@
     ]
   },
   {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 96 in D Major, Hob. I:96 'The Miracle'",
+    "op": "Hob. I:96",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Adagio - Allegro",
+      "II. Andante",
+      "III. Minuet & Trio. Allegretto",
+      "IV. Finale. Vivace"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 97 in C Major, Hob. I:97",
+    "op": "Hob. I:97",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Adagio - Vivace",
+      "II. Adagio ma non troppo",
+      "III. Minuet & Trio. Allegretto",
+      "IV. Finale. Presto assai"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 98 in B-Flat Major, Hob. I:98",
+    "op": "Hob. I:98",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Adagio - Allegro",
+      "II. Adagio",
+      "III. Minuet & Trio. Allegro",
+      "IV. Finale. Presto"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 99 in E-Flat Major, Hob. I:99",
+    "op": "Hob. I:99",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Adagio - Vivace assai",
+      "II. Adagio",
+      "III. Minuet & Trio. Allegretto",
+      "IV. Finale. Vivace"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 100 in G Major, Hob. I:100 'Military'",
+    "op": "Hob. I:100",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Adagio - Allegro",
+      "II. Allegretto",
+      "III. Minuet & Trio. Moderato",
+      "IV. Finale. Presto"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 101 in D Major, Hob. I:101 'The Clock'",
+    "op": "Hob. I:101",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Adagio - Presto",
+      "II. Andante",
+      "III. Minuet & Trio. Allegretto",
+      "IV. Finale. Vivace"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 102 in B-Flat Major, Hob. I:102",
+    "op": "Hob. I:102",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Largo - Vivace",
+      "II. Adagio",
+      "III. Minuet & Trio. Allegro",
+      "IV. Finale. Presto"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 103 in E-Flat Major, Hob. I:103 'Drum Roll'",
+    "op": "Hob. I:103",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Adagio - Allegro con spirito",
+      "II. Andante più tosto allegretto",
+      "III. Menuetto - Trio",
+      "IV. Finale. Allegro con spirito"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony No. 104 in D Major, Hob. I:104 'London'",
+    "op": "Hob. I:104",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Adagio - Allegro",
+      "II. Andante",
+      "III. Minuet & Trio. Allegro",
+      "IV. Finale. Spiritoso"
+    ]
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Sinfonia concertante in B-Flat Major, Hob. I:105",
+    "op": "Hob. I:105",
+    "genre": "Symphony",
+    "period": "Classical",
+    "movements": [
+      "I. Allegro",
+      "II. Andante",
+      "III. Allegro con spirito"
+    ]
+  },
+  {
     "composer": "Wolfgang Amadeus Mozart",
     "title": "Piano Concerto No. 20 in D Minor, K. 466",
     "op": "K. 466",
