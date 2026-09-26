@@ -171,6 +171,390 @@
   },
   {
     "composer": "Johann Sebastian Bach",
+    "title": "The Well-Tempered Clavier, Book I: Prelude and Fugue No. 1 in C Major, BWV 846",
+    "op": "BWV 846",
+    "genre": "Keyboard",
+    "period": "Baroque",
+    "movements": []
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "The Well-Tempered Clavier, Book I: Prelude and Fugue No. 2 in C Minor, BWV 847",
+    "op": "BWV 847",
+    "genre": "Keyboard",
+    "period": "Baroque",
+    "movements": []
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "The Well-Tempered Clavier, Book I: Prelude and Fugue No. 3 in C-Sharp Major, BWV 848",
+    "op": "BWV 848",
+    "genre": "Keyboard",
+    "period": "Baroque",
+    "movements": []
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "The Well-Tempered Clavier, Book I: Prelude and Fugue No. 4 in C-Sharp Minor, BWV 849",
+    "op": "BWV 849",
+    "genre": "Keyboard",
+    "period": "Baroque",
+    "movements": []
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "The Well-Tempered Clavier, Book I: Prelude and Fugue No. 5 in D Major, BWV 850",
+    "op": "BWV 850",
+    "genre": "Keyboard",
+    "period": "Baroque",
+    "movements": []
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "The Well-Tempered Clavier, Book I: Prelude and Fugue No. 6 in D Minor, BWV 851",
+    "op": "BWV 851",
+    "genre": "Keyboard",
+    "period": "Baroque",
+    "movements": []
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "The Well-Tempered Clavier, Book I: Prelude and Fugue No. 7 in E-Flat Major, BWV 852",
+    "op": "BWV 852",
+    "genre": "Keyboard",
+    "period": "Baroque",
+    "movements": []
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "The Well-Tempered Clavier, Book I: Prelude and Fugue No. 8 in E-Flat Minor, BWV 853",
+    "op": "BWV 853",
+    "genre": "Keyboard",
+    "period": "Baroque",
+    "movements": []
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "The Well-Tempered Clavier, Book I: Prelude and Fugue No. 9 in E Major, BWV 854",
+    "op": "BWV 854",
+    "genre": "Keyboard",
+    "period": "Baroque",
+    "movements": []
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "The Well-Tempered Clavier, Book I: Prelude and Fugue No. 10 in E Minor, BWV 855",
+    "op": "BWV 855",
+    "genre": "Keyboard",
+    "period": "Baroque",
+    "movements": []
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "The Well-Tempered Clavier, Book I: Prelude and Fugue No. 11 in F Major, BWV 856",
+    "op": "BWV 856",
+    "genre": "Keyboard",
+    "period": "Baroque",
+    "movements": []
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "The Well-Tempered Clavier, Book I: Prelude and Fugue No. 12 in F Minor, BWV 857",
+    "op": "BWV 857",
+    "genre": "Keyboard",
+    "period": "Baroque",
+    "movements": []
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "The Well-Tempered Clavier, Book I: Prelude and Fugue No. 13 in F-Sharp Major, BWV 858",
+    "op": "BWV 858",
+    "genre": "Keyboard",
+    "period": "Baroque",
+    "movements": []
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "The Well-Tempered Clavier, Book I: Prelude and Fugue No. 14 in F-Sharp Minor, BWV 859",
+    "op": "BWV 859",
+    "genre": "Keyboard",
+    "period": "Baroque",
+    "movements": []
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "The Well-Tempered Clavier, Book I: Prelude and Fugue No. 15 in G Major, BWV 860",
+    "op": "BWV 860",
+    "genre": "Keyboard",
+    "period": "Baroque",
+    "movements": []
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "The Well-Tempered Clavier, Book I: Prelude and Fugue No. 16 in G Minor, BWV 861",
+    "op": "BWV 861",
+    "genre": "Keyboard",
+    "period": "Baroque",
+    "movements": []
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "The Well-Tempered Clavier, Book I: Prelude and Fugue No. 17 in A-Flat Major, BWV 862",
+    "op": "BWV 862",
+    "genre": "Keyboard",
+    "period": "Baroque",
+    "movements": []
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "The Well-Tempered Clavier, Book I: Prelude and Fugue No. 18 in G-Sharp Minor, BWV 863",
+    "op": "BWV 863",
+    "genre": "Keyboard",
+    "period": "Baroque",
+    "movements": []
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "The Well-Tempered Clavier, Book I: Prelude and Fugue No. 19 in A Major, BWV 864",
+    "op": "BWV 864",
+    "genre": "Keyboard",
+    "period": "Baroque",
+    "movements": []
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "The Well-Tempered Clavier, Book I: Prelude and Fugue No. 20 in A Minor, BWV 865",
+    "op": "BWV 865",
+    "genre": "Keyboard",
+    "period": "Baroque",
+    "movements": []
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "The Well-Tempered Clavier, Book I: Prelude and Fugue No. 21 in B-Flat Major, BWV 866",
+    "op": "BWV 866",
+    "genre": "Keyboard",
+    "period": "Baroque",
+    "movements": []
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "The Well-Tempered Clavier, Book I: Prelude and Fugue No. 22 in B-Flat Minor, BWV 867",
+    "op": "BWV 867",
+    "genre": "Keyboard",
+    "period": "Baroque",
+    "movements": []
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "The Well-Tempered Clavier, Book I: Prelude and Fugue No. 23 in B Major, BWV 868",
+    "op": "BWV 868",
+    "genre": "Keyboard",
+    "period": "Baroque",
+    "movements": []
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "The Well-Tempered Clavier, Book I: Prelude and Fugue No. 24 in B Minor, BWV 869",
+    "op": "BWV 869",
+    "genre": "Keyboard",
+    "period": "Baroque",
+    "movements": []
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "The Well-Tempered Clavier, Book II: Prelude and Fugue No. 1 in C Major, BWV 870",
+    "op": "BWV 870",
+    "genre": "Keyboard",
+    "period": "Baroque",
+    "movements": []
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "The Well-Tempered Clavier, Book II: Prelude and Fugue No. 2 in C Minor, BWV 871",
+    "op": "BWV 871",
+    "genre": "Keyboard",
+    "period": "Baroque",
+    "movements": []
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "The Well-Tempered Clavier, Book II: Prelude and Fugue No. 3 in C-Sharp Major, BWV 872",
+    "op": "BWV 872",
+    "genre": "Keyboard",
+    "period": "Baroque",
+    "movements": []
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "The Well-Tempered Clavier, Book II: Prelude and Fugue No. 4 in C-Sharp Minor, BWV 873",
+    "op": "BWV 873",
+    "genre": "Keyboard",
+    "period": "Baroque",
+    "movements": []
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "The Well-Tempered Clavier, Book II: Prelude and Fugue No. 5 in D Major, BWV 874",
+    "op": "BWV 874",
+    "genre": "Keyboard",
+    "period": "Baroque",
+    "movements": []
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "The Well-Tempered Clavier, Book II: Prelude and Fugue No. 6 in D Minor, BWV 875",
+    "op": "BWV 875",
+    "genre": "Keyboard",
+    "period": "Baroque",
+    "movements": []
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "The Well-Tempered Clavier, Book II: Prelude and Fugue No. 7 in E-Flat Major, BWV 876",
+    "op": "BWV 876",
+    "genre": "Keyboard",
+    "period": "Baroque",
+    "movements": []
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "The Well-Tempered Clavier, Book II: Prelude and Fugue No. 8 in D-Sharp Minor, BWV 877",
+    "op": "BWV 877",
+    "genre": "Keyboard",
+    "period": "Baroque",
+    "movements": []
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "The Well-Tempered Clavier, Book II: Prelude and Fugue No. 9 in E Major, BWV 878",
+    "op": "BWV 878",
+    "genre": "Keyboard",
+    "period": "Baroque",
+    "movements": []
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "The Well-Tempered Clavier, Book II: Prelude and Fugue No. 10 in E Minor, BWV 879",
+    "op": "BWV 879",
+    "genre": "Keyboard",
+    "period": "Baroque",
+    "movements": []
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "The Well-Tempered Clavier, Book II: Prelude and Fugue No. 11 in F Major, BWV 880",
+    "op": "BWV 880",
+    "genre": "Keyboard",
+    "period": "Baroque",
+    "movements": []
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "The Well-Tempered Clavier, Book II: Prelude and Fugue No. 12 in F Minor, BWV 881",
+    "op": "BWV 881",
+    "genre": "Keyboard",
+    "period": "Baroque",
+    "movements": []
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "The Well-Tempered Clavier, Book II: Prelude and Fugue No. 13 in F-Sharp Major, BWV 882",
+    "op": "BWV 882",
+    "genre": "Keyboard",
+    "period": "Baroque",
+    "movements": []
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "The Well-Tempered Clavier, Book II: Prelude and Fugue No. 14 in F-Sharp Minor, BWV 883",
+    "op": "BWV 883",
+    "genre": "Keyboard",
+    "period": "Baroque",
+    "movements": []
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "The Well-Tempered Clavier, Book II: Prelude and Fugue No. 15 in G Major, BWV 884",
+    "op": "BWV 884",
+    "genre": "Keyboard",
+    "period": "Baroque",
+    "movements": []
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "The Well-Tempered Clavier, Book II: Prelude and Fugue No. 16 in G Minor, BWV 885",
+    "op": "BWV 885",
+    "genre": "Keyboard",
+    "period": "Baroque",
+    "movements": []
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "The Well-Tempered Clavier, Book II: Prelude and Fugue No. 17 in A-Flat Major, BWV 886",
+    "op": "BWV 886",
+    "genre": "Keyboard",
+    "period": "Baroque",
+    "movements": []
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "The Well-Tempered Clavier, Book II: Prelude and Fugue No. 18 in G-Sharp Minor, BWV 887",
+    "op": "BWV 887",
+    "genre": "Keyboard",
+    "period": "Baroque",
+    "movements": []
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "The Well-Tempered Clavier, Book II: Prelude and Fugue No. 19 in A Major, BWV 888",
+    "op": "BWV 888",
+    "genre": "Keyboard",
+    "period": "Baroque",
+    "movements": []
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "The Well-Tempered Clavier, Book II: Prelude and Fugue No. 20 in A Minor, BWV 889",
+    "op": "BWV 889",
+    "genre": "Keyboard",
+    "period": "Baroque",
+    "movements": []
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "The Well-Tempered Clavier, Book II: Prelude and Fugue No. 21 in B-Flat Major, BWV 890",
+    "op": "BWV 890",
+    "genre": "Keyboard",
+    "period": "Baroque",
+    "movements": []
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "The Well-Tempered Clavier, Book II: Prelude and Fugue No. 22 in B-Flat Minor, BWV 891",
+    "op": "BWV 891",
+    "genre": "Keyboard",
+    "period": "Baroque",
+    "movements": []
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "The Well-Tempered Clavier, Book II: Prelude and Fugue No. 23 in B Major, BWV 892",
+    "op": "BWV 892",
+    "genre": "Keyboard",
+    "period": "Baroque",
+    "movements": []
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "The Well-Tempered Clavier, Book II: Prelude and Fugue No. 24 in B Minor, BWV 893",
+    "op": "BWV 893",
+    "genre": "Keyboard",
+    "period": "Baroque",
+    "movements": []
+  },
+  {
+    "composer": "Johann Sebastian Bach",
     "title": "Wachet auf, ruft uns die Stimme, BWV 140",
     "op": "BWV 140",
     "genre": "Cantata",
@@ -1790,6 +2174,30 @@
       "II. Allegro vivace",
       "III. Andante",
       "IV. Chorale. Andante con moto - Allegro vivace"
+    ]
+  },
+  {
+    "composer": "Frédéric François Chopin",
+    "title": "Piano Concerto No. 1 in E Minor, Op. 11",
+    "op": "Op. 11",
+    "genre": "Concerto",
+    "period": "Romantic",
+    "movements": [
+      "I. Allegro maestoso",
+      "II. Romance. Larghetto",
+      "III. Rondo. Vivace"
+    ]
+  },
+  {
+    "composer": "Frédéric François Chopin",
+    "title": "Piano Concerto No. 2 in F Minor, Op. 21",
+    "op": "Op. 21",
+    "genre": "Concerto",
+    "period": "Romantic",
+    "movements": [
+      "I. Maestoso",
+      "II. Larghetto",
+      "III. Allegro vivace"
     ]
   },
   {
@@ -4420,6 +4828,14 @@
       "II. Jeux de vagues",
       "III. Dialogue du vent et de la mer"
     ]
+  },
+  {
+    "composer": "Arnold Schönberg",
+    "title": "Concerto for Piano and Orchestra, Op. 42",
+    "op": "Op. 42",
+    "genre": "Concerto",
+    "period": "Modernist",
+    "movements": []
   },
   {
     "composer": "Alban Berg",
