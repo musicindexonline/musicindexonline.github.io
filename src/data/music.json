@@ -4795,7 +4795,7 @@
     "title": "Symphony No. 1, 'Jeremiah'",
     "op": "",
     "genre": "Symphony",
-    "period": "Modernist",
+    "period": "Modern",
     "movements": [
       "I. Prophecy",
       "II. Profanation",
@@ -4807,7 +4807,7 @@
     "title": "Symphony No. 2, 'The Age of Anxiety'",
     "op": "",
     "genre": "Symphony",
-    "period": "Modernist",
+    "period": "Modern",
     "movements": [
       "I. Part I: The Prologue. Lento moderato",
       "II. Part I: The Seven Ages. Variations I-VII",
@@ -4834,7 +4834,7 @@
     "title": "Concerto for Piano and Orchestra, Op. 42",
     "op": "Op. 42",
     "genre": "Concerto",
-    "period": "Modernist",
+    "period": "Modern",
     "movements": []
   },
   {
@@ -4842,7 +4842,7 @@
     "title": "Sieben frühe Lieder",
     "op": "",
     "genre": "Art Song",
-    "period": "Modernist",
+    "period": "Modern",
     "movements": [
       "I. Nacht",
       "II. Schilflied",
@@ -4852,5 +4852,77 @@
       "VI. Liebesode",
       "VII. Sommertage"
     ]
-  }
+  },
+  {
+    "composer": "Georg Friedrich Händel",
+    "title": "Harp Concerto in B-Flat Major, HWV 294",
+    "op": "HWV 294",
+    "genre": "Concerto",
+    "period": "Baroque",
+    "movements": [
+      "I. Andante allegro",
+      "II. Larghetto",
+      "III. Allegro moderato"
+    ]
+  },
+  {
+    "composer": "François-Adrien Boieldieu",
+    "title": "Harp Concerto in C Major",
+    "op": "",
+    "genre": "Concerto",
+    "period": "Classical",
+    "movements": [
+      "I. Allegro brillante",
+      "II. Andante lento",
+      "III. Rondo. Allegro agitato"
+    ]
+  },
+  {
+    "composer": "Wolfgang Amadeus Mozart",
+    "title": "Concerto for Flute, Harp and Orchestra in C Major, K. 299",
+    "op": "K. 299",
+    "genre": "Concerto",
+    "period": "Classical",
+    "movements": [
+      "I. Allegro",
+      "II. Andantino",
+      "III. Rondo. Allegro"
+    ]
+  },
+  {
+    "composer": "Carl Ditters von Dittersdorf",
+    "title": "Harp Concerto in A Major",
+    "op": "",
+    "genre": "Concerto",
+    "period": "Classical",
+    "movements": [
+      "I. Allegro molto",
+      "II. Larghetto",
+      "III. Rondeau. Allegretto"
+    ]
+  },
+  {
+    "composer": "Reinhold Glière",
+    "title": "Concerto for Harp and Orchestra in E-Flat Major, Op. 74",
+    "op": "Op. 74",
+    "genre": "Concerto",
+    "period": "Romantic",
+    "movements": [
+      "I. Allegro moderato",
+      "II. Tema con variazioni",
+      "III. Allegro giocoso"
+    ]
+  },
+  {
+    "composer": "Joaquín Rodrigo",
+    "title": "Concierto de Aranjuez",
+    "op": "",
+    "genre": "Concerto",
+    "period": "Modern",
+    "movements": [
+      "I. Allegro con spirito",
+      "II. Adagio",
+      "III. Allegro gentile"
+    ]
+  },
 ]
