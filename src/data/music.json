@@ -1847,6 +1847,48 @@
     ]
   },
   {
+    "composer": "Ludwig van Beethoven",
+    "title": "32 Variations in C Minor, WoO 80",
+    "op": "WoO 80",
+    "genre": "Piano",
+    "period": "Classical",
+    "movements": [
+      "Thema. Allegretto",
+      "Var. 1",
+      "Var. 2",
+      "Var. 3",
+      "Var. 4",
+      "Var. 5",
+      "Var. 6",
+      "Var. 7",
+      "Var. 8",
+      "Var. 9",
+      "Var. 10",
+      "Var. 11",
+      "Var. 12",
+      "Var. 13",
+      "Var. 14",
+      "Var. 15",
+      "Var. 16",
+      "Var. 17",
+      "Var. 18",
+      "Var. 19",
+      "Var. 20",
+      "Var. 21",
+      "Var. 22",
+      "Var. 23",
+      "Var. 24",
+      "Var. 25",
+      "Var. 26",
+      "Var. 27",
+      "Var. 28",
+      "Var. 29",
+      "Var. 30",
+      "Var. 31",
+      "Var. 32"
+    ]
+  },
+  {
     "composer": "Johannes Brahms",
     "title": "Symphony No. 1 in C Minor, Op. 68",
     "op": "Op. 68",
@@ -2124,6 +2166,18 @@
       "I. Allegro non troppo e molto maestoso - Allegro con spirito",
       "II. Andantino semplice - Prestissimo - Tempo I",
       "III. Allegro con fuoco"
+    ]
+  },
+  {
+    "composer": "Pyotr Ilyich Tchaikovsky",
+    "title": "Violin Concerto in D Major, Op. 35",
+    "op": "Op. 35",
+    "genre": "Concerto",
+    "period": "Romantic",
+    "movements": [
+      "I. Allegro moderato",
+      "II. Canzonetta. Andante",
+      "III. Finale. Allegro vivacissimo"
     ]
   },
   {
@@ -4887,6 +4941,18 @@
       "I. Allegro",
       "II. Andantino",
       "III. Rondo. Allegro"
+    ]
+  },
+  {
+    "composer": "Wolfgang Amadeus Mozart",
+    "title": "Piano Concerto No. 24 in C Minor, K. 491",
+    "op": "K. 491",
+    "genre": "Concerto",
+    "period": "Classical",
+    "movements": [
+      "I. Allegro",
+      "II. Larghetto",
+      "III. Allegretto"
     ]
   },
   {
