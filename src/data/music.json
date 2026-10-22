@@ -6550,6 +6550,68 @@
     ]
   },
   {
+    "composer": "Franz Schubert",
+    "title": "Piano Sonata No. 16 in A Minor, D. 845",
+    "op": "D. 845",
+    "genre": "Piano",
+    "period": "Romantic",
+    "movements": [
+      "I. Moderato",
+      "II. Andante poco mosso",
+      "III. Scherzo. Allegro vivace - Trio. Un poco più lento",
+      "IV. Rondo. Allegro vivace"
+    ]
+  },
+  {
+    "composer": "Franz Schubert",
+    "title": "Piano Sonata No. 19 in C Minor, D. 958",
+    "op": "D. 958",
+    "genre": "Piano",
+    "period": "Romantic",
+    "movements": [
+      "I. Allegro",
+      "II. Adagio",
+      "III. Menuetto. Allegro - Trio",
+      "IV. Allegro"
+    ]
+  },
+  {
+    "composer": "Franz Schubert",
+    "title": "6 Moments musicaux, D. 780",
+    "op": "D. 780",
+    "genre": "Piano",
+    "period": "Romantic",
+    "movements": [
+      "No. 1 in C Major",
+      "No. 2 in A-Flat Major",
+      "No. 3 in F Minor",
+      "No. 4 in C-Sharp Minor",
+      "No. 5 in F Minor",
+      "No. 6 in A-Flat Major"
+    ]
+  },
+  {
+    "composer": "Franz Schubert",
+    "title": "4 Impromptus, D. 899",
+    "op": "D. 899",
+    "genre": "Piano",
+    "period": "Romantic",
+    "movements": [
+      "No. 1 in C Minor",
+      "No. 2 in E-Flat Major",
+      "No. 3 in G-Flat Major",
+      "No. 4 in A-Flat Major"
+    ]
+  },
+  {
+    "composer": "Franz Schubert",
+    "title": "Allegretto in C Minor, D. 915",
+    "op": "D. 915",
+    "genre": "Piano",
+    "period": "Romantic",
+    "movements": []
+  },
+  {
     "composer": "Pyotr Ilyich Tchaikovsky",
     "title": "Symphony No. 1 in G Minor, Op. 13 'Winter Daydreams'",
     "op": "Op. 13",
@@ -8464,6 +8526,30 @@
   },
   {
     "composer": "Wolfgang Amadeus Mozart",
+    "title": "Piano Concerto No. 22 in E-Flat Major, K. 482",
+    "op": "K. 482",
+    "genre": "Concerto",
+    "period": "Classical",
+    "movements": [
+      "I. Allegro",
+      "II. Andante",
+      "III. Allegro"
+    ]
+  },
+  {
+    "composer": "Wolfgang Amadeus Mozart",
+    "title": "Piano Concerto No. 25 in C Major, K. 503",
+    "op": "K. 503",
+    "genre": "Concerto",
+    "period": "Classical",
+    "movements": [
+      "I. Allegro maestoso",
+      "II. Andante",
+      "III. Allegretto"
+    ]
+  },
+  {
+    "composer": "Wolfgang Amadeus Mozart",
     "title": "Piano Concerto No. 27 in B-Flat Major, K. 595",
     "op": "K. 595",
     "genre": "Concerto",
@@ -9389,6 +9475,66 @@
       "I. Andante allegro",
       "II. Larghetto",
       "III. Allegro moderato"
+    ]
+  },
+  {
+    "composer": "Georg Friedrich Händel",
+    "title": "Music for the Royal Fireworks, HWV 351",
+    "op": "HWV 351",
+    "genre": "Orchestral Suite",
+    "period": "Baroque",
+    "movements": [
+      "I. Ouverture",
+      "II. Bourrée",
+      "III. La Paix",
+      "IV. La Réjouissance",
+      "V. Menuet I & II"
+    ]
+  },
+  {
+    "composer": "Georg Friedrich Händel",
+    "title": "Concerto a due Cori No. 1 in B-Flat Major, HWV 332",
+    "op": "HWV 332",
+    "genre": "Concerto",
+    "period": "Baroque",
+    "movements": [
+      "I. Ouverture",
+      "II. Allegro ma non troppo",
+      "III. Allegro",
+      "IV. Largo",
+      "V. A tempo ordinario",
+      "VI. Alla breve moderato",
+      "VII. Menuet. Allegro"
+    ]
+  },
+  {
+    "composer": "Georg Friedrich Händel",
+    "title": "Concerto a due Cori No. 2 in F Major, HWV 333",
+    "op": "HWV 333",
+    "genre": "Concerto",
+    "period": "Baroque",
+    "movements": [
+      "I. Pomposo",
+      "II. Allegro",
+      "III. A tempo giusto",
+      "IV. Largo",
+      "V. Allegro ma non troppo",
+      "VI. A tempo ordinario"
+    ]
+  },
+  {
+    "composer": "Georg Friedrich Händel",
+    "title": "Concerto a due Cori No. 3 in F Major, HWV 334",
+    "op": "HWV 334",
+    "genre": "Concerto",
+    "period": "Baroque",
+    "movements": [
+      "I. Ouverture",
+      "II. Allegro",
+      "III. Allegro ma non troppo",
+      "IV. Adagio",
+      "V. Andante larghetto",
+      "VI. Allegro"
     ]
   },
   {
