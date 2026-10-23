@@ -55,6 +55,32 @@ Whether you're a performer checking a program, a listener discovering new repert
 Found a bug, have a suggestion, or want to request a feature?  
 Feel free to [open an issue](https://github.com/musicindexonline/musicindexonline.github.io/issues) — all feedback is welcome.
 
+## Local Development
+
+The website uses the separate
+[data repository](https://github.com/musicindexonline/data) through the
+`/data/v1/stable.json` route. To test remotely updated data locally, start the
+data repository on port `4174` before starting Vite:
+
+```powershell
+cd D:\MusicIndexOnlineData
+npm install
+npm run serve
+```
+
+```powershell
+cd D:\MusicIndexOnline
+npm install
+npm run dev
+```
+
+Vite proxies `/data/` to `http://127.0.0.1:4174`. Set `CATALOG_DEV_ORIGIN` to
+use a different local data origin, and set `VITE_CATALOG_MANIFEST_URL` to use a
+different manifest URL.
+
+Run `npm test` for the IndexedDB, download, adapter, and search tests, then run
+`npm run build` for a production build.
+
 ## License
 
 This project is open source and available under the MIT License.

@@ -15,7 +15,8 @@ function WorkList({
                     onCopyText,
                     clickCopyEnabled,
                     clickCopyRules,
-                    buildCopyText
+                    buildCopyText,
+                    composerMap
                   }) {
   const localPage = page || 1
   const perPage = itemsPerPage || DEFAULT_ITEMS_PER_PAGE
@@ -29,9 +30,9 @@ function WorkList({
   }, [localPage])
 
   const filteredData = useMemo(() => {
-    const result = filterWorks(data, searchTerm, filters)
+    const result = filterWorks(data, searchTerm, filters, composerMap)
     return result
-  }, [data, searchTerm, filters])
+  }, [data, searchTerm, filters, composerMap])
 
   const totalPages = Math.ceil(filteredData.length / perPage)
   const startIndex = (localPage - 1) * perPage

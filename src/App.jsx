@@ -1,26 +1,44 @@
 import React, {useState, useMemo, useCallback, useRef, useEffect} from 'react'
-import {Box, CircularProgress, Alert, Paper, Snackbar, Typography} from '@mui/material'
+import {Box, CircularProgress, Paper, Snackbar, Typography} from '@mui/material'
 import Layout from './components/Layout'
 import FilterBar from './components/FilterBar'
 import WorkList from './components/WorkList'
-import useMusicData, {composerMap} from './hooks/useMusicData'
+import useMusicData from './hooks/useMusicData'
 import {filterWorks} from './utils/search'
 
-function getComposerShort(composer) {
+function getComposerShort(composer, composerMap) {
   return composerMap[composer] || composer
 }
 
 function App({onToggleTheme, themeMode, clickCopyEnabled, clickCopyRules, itemsPerPage = 20}) {
-  const {data, loading, error} = useMusicData()
+  const {data, composerMap, catalogVersion, loading, error, hasCatalog} = useMusicData()
   const [searchTerm, setSearchTerm] = useState('')
   const [filters, setFilters] = useState({composer: [], genre: [], period: []})
   const [page, setPage] = useState(1)
 
-  const filteredData = useMemo(() => filterWorks(data, searchTerm, filters), [data, searchTerm, filters])
+  const filteredData = useMemo(
+    () => filterWorks(data, searchTerm, filters, composerMap),
+    [data, searchTerm, filters, composerMap],
+  )
+
+  const filterOptions = useMemo(() => ({
+    composers: [...new Set(Object.values(composerMap))].sort(),
+    genres: [...new Set(data.filter(w => w.genre).map(w => w.genre))].sort(),
+    periods: [...new Set(data.filter(w => w.period).map(w => w.period))].sort(),
+  }), [data, composerMap])
 
   React.useEffect(() => {
     setPage(1)
   }, [searchTerm, filters])
+
+  React.useEffect(() => {
+    setPage(1)
+    setFilters((current) => ({
+      composer: current.composer.filter(value => filterOptions.composers.includes(value)),
+      genre: current.genre.filter(value => filterOptions.genres.includes(value)),
+      period: current.period.filter(value => filterOptions.periods.includes(value)),
+    }))
+  }, [catalogVersion])
 
   const total = filteredData.length
   const startIndex = (page - 1) * itemsPerPage
@@ -61,7 +79,7 @@ function App({onToggleTheme, themeMode, clickCopyEnabled, clickCopyRules, itemsP
   const buildCopyText = useCallback((rule, context) => {
     if (!rule || !context) return ''
     const {work, movement} = context
-    const composerShort = getComposerShort(work.composer)
+    const composerShort = getComposerShort(work.composer, composerMap)
 
     const keywordMap = {
       workTitle: work.title,
@@ -87,11 +105,7 @@ function App({onToggleTheme, themeMode, clickCopyEnabled, clickCopyRules, itemsP
       .map((k) => keywordMap[k])
       .filter((v) => v !== undefined && v !== null && v !== '')
     return parts.join(': ')
-  }, [])
-
-  const allComposers = Object.values(composerMap).sort()
-  const allGenres = [...new Set(data.filter(w => w.genre).map(w => w.genre))].sort()
-  const allPeriods = [...new Set(data.filter(w => w.period).map(w => w.period))].sort()
+  }, [composerMap])
 
   return (
     <Layout searchTerm={searchTerm} onSearchChange={setSearchTerm}>
@@ -109,16 +123,10 @@ function App({onToggleTheme, themeMode, clickCopyEnabled, clickCopyRules, itemsP
         backdropFilter: 'saturate(1.5) blur(14px)',
         WebkitBackdropFilter: 'saturate(1.5) blur(14px)'
       }}>
-        {error && (
-          <Alert severity="error" sx={{mb: 2, mt: 1}}>
-            Failed to load data: {error.message}
-          </Alert>
-        )}
-
         <FilterBar
-          composers={allComposers}
-          genres={allGenres}
-          periods={allPeriods}
+          composers={filterOptions.composers}
+          genres={filterOptions.genres}
+          periods={filterOptions.periods}
           filters={filters}
           onFilterChange={setFilters}
           countText={countText}
@@ -128,6 +136,17 @@ function App({onToggleTheme, themeMode, clickCopyEnabled, clickCopyRules, itemsP
       {loading ? (
         <Box sx={{display: 'flex', justifyContent: 'center', mt: 4}}>
           <CircularProgress/>
+        </Box>
+      ) : !hasCatalog ? (
+        <Box sx={{textAlign: 'center', mt: 6, py: 4}}>
+          <Typography variant="h6" color="text.secondary" gutterBottom>
+            No catalog data available
+          </Typography>
+          {error?.message && (
+            <Typography variant="body2" color="text.secondary">
+              {error.message}
+            </Typography>
+          )}
         </Box>
       ) : (
         <WorkList
@@ -141,6 +160,7 @@ function App({onToggleTheme, themeMode, clickCopyEnabled, clickCopyRules, itemsP
           clickCopyEnabled={clickCopyEnabled}
           clickCopyRules={clickCopyRules}
           buildCopyText={buildCopyText}
+          composerMap={composerMap}
         />
       )}
 
